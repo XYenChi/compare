@@ -1,4 +1,4 @@
-make[1]: Entering directory '/home/xyenchi/binutils-gdb/buildarm'
+make[1]: Entering directory '/home/xyenchi/binutils-gdb/buildrv'
 mkdir -p -- ./libiberty
 Configuring in ./libiberty
 configure: creating cache ./config.cache
@@ -349,7 +349,7 @@ Configuring in ./bfd
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
 checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
@@ -513,7 +513,7 @@ config.status: executing depfiles commands
 config.status: executing libtool commands
 config.status: executing default-1 commands
 config.status: executing default commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/libiberty'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/libiberty'
 if [ x"" != x ] && [ ! -d pic ]; then \
   mkdir pic; \
 else true; fi
@@ -1003,19 +1003,19 @@ if [ x"" != x ]; then \
   cd ..; \
 else true; fi
 echo ./regex.o ./cplus-dem.o ./cp-demangle.o ./md5.o ./sha1.o ./alloca.o ./argv.o ./bsearch_r.o ./choose-temp.o ./concat.o ./cp-demint.o ./crc32.o ./d-demangle.o ./dwarfnames.o ./dyn-string.o ./fdmatch.o ./fibheap.o ./filedescriptor.o ./filename_cmp.o ./floatformat.o ./fnmatch.o ./fopen_unlocked.o ./getopt.o ./getopt1.o ./getpwd.o ./getruntime.o ./hashtab.o ./hex.o ./lbasename.o ./lrealpath.o ./make-relative-prefix.o ./make-temp-file.o ./objalloc.o ./obstack.o ./partition.o ./pexecute.o ./physmem.o ./pex-common.o ./pex-one.o ./pex-unix.o ./vprintf-support.o ./rust-demangle.o ./safe-ctype.o ./simple-object.o ./simple-object-coff.o ./simple-object-elf.o ./simple-object-mach-o.o ./simple-object-xcoff.o ./sort.o ./spaces.o ./splay-tree.o ./stack-limit.o ./strerror.o ./strsignal.o ./timeval-utils.o ./unlink-if-ordinary.o ./xasprintf.o ./xatexit.o ./xexit.o ./xmalloc.o ./xmemdup.o ./xstrdup.o ./xstrerror.o ./xstrndup.o ./xvasprintf.o > required-list
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/libiberty/testsuite'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/libiberty/testsuite'
 make[3]: Nothing to be done for 'all'.
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libiberty/testsuite'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libiberty'
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/intl'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/libiberty/testsuite'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/libiberty'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/intl'
 make[2]: Nothing to be done for 'all'.
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/intl'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/intl'
 mkdir -p -- ./zlib
 Configuring in ./zlib
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
 checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
@@ -1099,7 +1099,7 @@ configure: creating ./config.status
 config.status: creating Makefile
 config.status: executing depfiles commands
 config.status: executing libtool commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/zlib'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/zlib'
   CC       libz_a-adler32.o
   CC       libz_a-compress.o
   CC       libz_a-crc32.o
@@ -1116,8 +1116,8 @@ make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/zlib'
   CC       libz_a-uncompr.o
   CC       libz_a-zutil.o
   AR       libz.a
-true "AR_FLAGS=rc" "CC_FOR_BUILD=gcc" "CFLAGS=-g -O2    " "CXXFLAGS=-g -O2    " "CFLAGS_FOR_BUILD=-g -O2" "CFLAGS_FOR_TARGET=-g -O2" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS=" "LIBCFLAGS=-g -O2  " "LIBCFLAGS_FOR_TARGET=-g -O2" "MAKE=make" "MAKEINFO=makeinfo --split-size=5000000 --split-size=5000000 " "PICFLAG=" "PICFLAG_FOR_TARGET=" "SHELL=/bin/bash" "EXPECT=expect" "RUNTEST=runtest" "RUNTESTFLAGS=" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "prefix=/usr/local" "tooldir=/usr/local/aarch64-arm-linux-gnu" "AR=ar --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so" "AS=as" "CC=gcc" "CXX=g++" "LD=ld" "LIBCFLAGS=-g -O2  " "NM=nm" "PICFLAG=" "RANLIB=ranlib --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so" "DESTDIR=" DO=all multi-do # make
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/zlib'
+true "AR_FLAGS=rc" "CC_FOR_BUILD=gcc" "CFLAGS=-g -O2    " "CXXFLAGS=-g -O2    " "CFLAGS_FOR_BUILD=-g -O2" "CFLAGS_FOR_TARGET=-g -O2" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS=" "LIBCFLAGS=-g -O2  " "LIBCFLAGS_FOR_TARGET=-g -O2" "MAKE=make" "MAKEINFO=makeinfo --split-size=5000000 --split-size=5000000 " "PICFLAG=" "PICFLAG_FOR_TARGET=" "SHELL=/bin/bash" "EXPECT=expect" "RUNTEST=runtest" "RUNTESTFLAGS=" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "prefix=/usr/local" "tooldir=/usr/local/riscv64-unknown-linux-gnu" "AR=ar --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so" "AS=as" "CC=gcc" "CXX=g++" "LD=ld" "LIBCFLAGS=-g -O2  " "NM=nm" "PICFLAG=" "RANLIB=ranlib --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so" "DESTDIR=" DO=all multi-do # make
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/zlib'
 mkdir -p -- ./libsframe
 Configuring in ./libsframe
 configure: creating cache ./config.cache
@@ -1241,25 +1241,25 @@ config.status: creating Makefile
 config.status: creating config.h
 config.status: executing depfiles commands
 config.status: executing libtool commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/libsframe'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/libsframe'
 make  all-am
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/libsframe'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/libsframe'
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libsframe'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/libsframe'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/libsframe'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/libsframe'
   MAKEINFO doc/sframe-spec.info
   CC       libsframe_la-sframe.lo
   CC       libsframe_la-sframe-dump.lo
   CC       libsframe_la-sframe-error.lo
   CCLD     libsframe.la
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libsframe'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libsframe'
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/bfd'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/libsframe'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/libsframe'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/bfd'
   GEN      bfdver.h
   GEN      elf32-target.h
   GEN      elf64-target.h
   GEN      targmatch.h
 Making info in po
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/bfd/po'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/bfd/po'
 ( if test 'x../../../bfd/po' != 'x.'; then \
     posrcprefix='../../../bfd/'; \
   else \
@@ -1288,8 +1288,8 @@ config.status: executing libtool commands
 config.status: executing default-1 commands
 config.status: executing default commands
 make[3]: Nothing to be done for 'info'.
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/bfd/po'
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/bfd'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/bfd/po'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/bfd'
   CCLD     doc/chew.stamp
   GEN      doc/aoutx.stamp
   GEN      doc/archive.stamp
@@ -1314,11 +1314,11 @@ make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/bfd'
   GEN      doc/syms.stamp
   GEN      doc/targets.stamp
   MAKEINFO doc/bfd.info
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/bfd'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/bfd'
 make  all-recursive
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/bfd'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/bfd'
 Making all in po
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/bfd/po'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/bfd/po'
 file=`echo ../../../bfd/po/da | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../bfd/po/da.po
 file=`echo ../../../bfd/po/es | sed 's,.*/,,'`.gmo \
@@ -1355,8 +1355,8 @@ file=`echo ../../../bfd/po/vi | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../bfd/po/vi.po
 file=`echo ../../../bfd/po/zh_CN | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../bfd/po/zh_CN.po
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/bfd/po'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/bfd'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/bfd/po'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/bfd'
 rm -f bfd-tmp.h
 cp bfd-in3.h bfd-tmp.h
 /bin/bash ../../bfd/../move-if-change bfd-tmp.h bfd.h
@@ -1390,11 +1390,12 @@ touch stmp-bfd-h
   CC       srec.lo
   CC       tekhex.lo
   CC       verilog.lo
-  GEN      elf64-aarch64.c
-  CC       elf64-aarch64.lo
-  CC       elfxx-aarch64.lo
-  CC       elf-ifunc.lo
+  GEN      elf64-riscv.c
+  CC       elf64-riscv.lo
   CC       elf64.lo
+  CC       elfxx-riscv.lo
+  CC       elf-ifunc.lo
+  CC       elf32.lo
   CC       elf.lo
   CC       elflink.lo
   CC       elf-attrs.lo
@@ -1403,27 +1404,16 @@ touch stmp-bfd-h
   CC       elf-sframe.lo
   CC       dwarf1.lo
   CC       dwarf2.lo
-  GEN      elf32-aarch64.c
-  CC       elf32-aarch64.lo
-  CC       elf32.lo
-  CC       elf32-arm.lo
-  CC       elf-nacl.lo
-  CC       elf-vxworks.lo
-  CC       pei-aarch64.lo
-  GEN      pe-aarch64igen.c
-  CC       pe-aarch64igen.lo
-  CC       cofflink.lo
-  CC       coffgen.lo
-  CC       pe-aarch64.lo
+  GEN      elf32-riscv.c
+  CC       elf32-riscv.lo
   CC       elf64-gen.lo
   CC       elf32-gen.lo
   CC       plugin.lo
-  CC       cpu-aarch64.lo
-  CC       cpu-arm.lo
+  CC       cpu-riscv.lo
   CC       archive64.lo
 rm -f tofiles
 f=""; \
-for i in elf64-aarch64.lo elfxx-aarch64.lo elf-ifunc.lo elf64.lo elf.lo elflink.lo elf-attrs.lo elf-strtab.lo elf-eh-frame.lo elf-sframe.lo dwarf1.lo dwarf2.lo elf32-aarch64.lo elf32.lo elf32-arm.lo elf-nacl.lo elf-vxworks.lo pei-aarch64.lo pe-aarch64igen.lo cofflink.lo coffgen.lo pe-aarch64.lo elf64-gen.lo elf32-gen.lo plugin.lo cpu-aarch64.lo cpu-arm.lo  archive64.lo ; do \
+for i in elf64-riscv.lo elf64.lo elfxx-riscv.lo elf-ifunc.lo elf32.lo elf.lo elflink.lo elf-attrs.lo elf-strtab.lo elf-eh-frame.lo elf-sframe.lo dwarf1.lo dwarf2.lo elf32-riscv.lo elf64-gen.lo elf32-gen.lo plugin.lo cpu-riscv.lo  archive64.lo ; do \
   case " $f " in \
     *" $i "*) ;; \
     *) f="$f $i" ;; \
@@ -1433,15 +1423,15 @@ echo $f > tofiles
 /bin/bash ../../bfd/../move-if-change tofiles ofiles
 touch stamp-ofiles
   CCLD     libbfd.la
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/bfd'
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/bfd'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/bfd'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/bfd'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/bfd'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/bfd'
 mkdir -p -- ./opcodes
 Configuring in ./opcodes
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
 checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
@@ -1541,21 +1531,16 @@ config.status: executing libtool commands
 config.status: executing default-1 commands
 config.status: creating po/POTFILES
 config.status: creating po/Makefile
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/opcodes'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/opcodes'
 make  all-recursive
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/opcodes'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/opcodes'
 Making all in .
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/opcodes'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/opcodes'
   CC       dis-buf.lo
   CC       disassemble.lo
   CC       dis-init.lo
-  CC       aarch64-asm.lo
-  CC       aarch64-dis.lo
-  CC       aarch64-opc.lo
-  CC       aarch64-asm-2.lo
-  CC       aarch64-dis-2.lo
-  CC       aarch64-opc-2.lo
-  CC       arm-dis.lo
+  CC       riscv-dis.lo
+  CC       riscv-opc.lo
   CCLD     libopcodes.la
 libtooldir=`/bin/bash ./libtool --config | sed -n -e 's/^objdir=//p'`; \
 if [ -f $libtooldir/libopcodes.a ]; then \
@@ -1564,9 +1549,9 @@ if [ -f $libtooldir/libopcodes.a ]; then \
   /bin/bash ../../opcodes/../move-if-change libopcodes.tmp libopcodes.a; \
 else true; fi
 touch stamp-lib
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/opcodes'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/opcodes'
 Making all in po
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/opcodes/po'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/opcodes/po'
 file=`echo ../../../opcodes/po/da | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../opcodes/po/da.po
 file=`echo ../../../opcodes/po/de | sed 's,.*/,,'`.gmo \
@@ -1601,15 +1586,15 @@ file=`echo ../../../opcodes/po/vi | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../opcodes/po/vi.po
 file=`echo ../../../opcodes/po/zh_CN | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../opcodes/po/zh_CN.po
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/opcodes/po'
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/opcodes'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/opcodes'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/opcodes/po'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/opcodes'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/opcodes'
 mkdir -p -- ./binutils
 Configuring in ./binutils
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
 checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
@@ -1771,7 +1756,7 @@ Configuring in ./gas
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
 checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
@@ -1851,6 +1836,9 @@ checking for _FILE_OFFSET_BITS value needed for large files... no
 checking how to compare bootstrapped objects... cmp --ignore-initial=16 $$f1 $$f2
 Setting warning flags = -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wstack-usage=262144
 checking whether byte ordering is bigendian... no
+checking for default configuration of --with-arch... 
+checking for default configuration of --with-isa-spec... 
+checking for default configuration of --with-priv-spec... 
 checking for bison... bison -y
 checking for flex... flex
 checking lex output file root... lex.yy
@@ -1896,11 +1884,11 @@ config.status: executing default-1 commands
 config.status: creating po/POTFILES
 config.status: creating po/Makefile
 config.status: executing default commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gas'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gas'
 make  all-recursive
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gas'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gas'
 Making all in po
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gas/po'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gas/po'
 file=`echo ../../../gas/po/es | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../gas/po/es.po
 file=`echo ../../../gas/po/fi | sed 's,.*/,,'`.gmo \
@@ -1923,8 +1911,8 @@ file=`echo ../../../gas/po/uk | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../gas/po/uk.po
 file=`echo ../../../gas/po/zh_CN | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../gas/po/zh_CN.po
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gas/po'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gas'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gas/po'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gas'
   GEN      doc/asconfig.texi
   MAKEINFO doc/as.info
   CC       app.o
@@ -1960,20 +1948,20 @@ make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gas'
   CC       subsegs.o
   CC       symbols.o
   CC       write.o
-  CC       config/tc-aarch64.o
+  CC       config/tc-riscv.o
   CC       config/obj-elf.o
   CC       config/atof-ieee.o
   CCLD     as-new
   GEN      doc/as.1
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gas'
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gas'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gas'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gas'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gas'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gas'
 mkdir -p -- ./libctf
 Configuring in ./libctf
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for x86_64-pc-linux-gnu-gcc... gcc
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
@@ -2109,11 +2097,11 @@ config.status: creating Makefile
 config.status: creating config.h
 config.status: executing depfiles commands
 config.status: executing libtool commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/libctf'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/libctf'
 make  all-am
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/libctf'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/libctf'
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libctf'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/libctf'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/libctf'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/libctf'
   MAKEINFO doc/ctf-spec.info
   CC       libctf_la-ctf-archive.lo
   CC       libctf_la-ctf-dump.lo
@@ -2152,9 +2140,9 @@ make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libctf'
   CC       libctf_nobfd_la-ctf-types.lo
   CC       libctf_nobfd_la-ctf-util.lo
   CCLD     libctf-nobfd.la
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libctf'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libctf'
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/libctf'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/libctf'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/binutils'
   YACC     arparse.c
 updating arparse.h
   YACC     sysinfo.c
@@ -2171,12 +2159,12 @@ updating rcparse.h
   YACC     mcparse.c
 updating mcparse.h
 Making info in po
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/binutils/po'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/binutils/po'
 make[3]: Nothing to be done for 'info'.
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/binutils/po'
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/binutils/po'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/binutils'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/binutils'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/binutils'
   MAKEINFO doc/binutils.info
   GEN      doc/addr2line.1
   GEN      doc/ar.1
@@ -2194,11 +2182,11 @@ make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
   GEN      doc/windmc.1
   GEN      doc/cxxfilt.man
   GEN      doc/c++filt.1
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/binutils'
 make  all-recursive
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/binutils'
 Making all in po
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/binutils/po'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/binutils/po'
 file=`echo ../../../binutils/po/bg | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../binutils/po/bg.po
 file=`echo ../../../binutils/po/ca | sed 's,.*/,,'`.gmo \
@@ -2243,8 +2231,8 @@ file=`echo ../../../binutils/po/zh_CN | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../binutils/po/zh_CN.po
 file=`echo ../../../binutils/po/zh_TW | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../binutils/po/zh_TW.po
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/binutils/po'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/binutils/po'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/binutils'
   CC       size.o
   CC       bucomm.o
   CC       version.o
@@ -2297,9 +2285,9 @@ make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
   CCLD     bfdtest2
   CC       testsuite/gentestdlls.o
   CCLD     testsuite/gentestdlls
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/binutils'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/binutils'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/binutils'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/binutils'
 mkdir -p -- ./etc
 Configuring in ./etc
 configure: creating cache ./config.cache
@@ -2315,15 +2303,15 @@ configure: updating cache ./config.cache
 checking that generated files are newer than configure... done
 configure: creating ./config.status
 config.status: creating Makefile
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/etc'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/etc'
 make[2]: Nothing to be done for 'all'.
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/etc'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/etc'
 mkdir -p -- ./gprof
 Configuring in ./gprof
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
 checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
@@ -2429,14 +2417,14 @@ config.status: executing libtool commands
 config.status: executing default-1 commands
 config.status: creating po/POTFILES
 config.status: creating po/Makefile
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprof'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprof'
   GEN      flat_bl.c
   GEN      bsd_callg_bl.c
   GEN      fsf_callg_bl.c
 make  all-recursive
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprof'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprof'
 Making all in po
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprof/po'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprof/po'
 file=`echo ../../../gprof/po/bg | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../gprof/po/bg.po
 file=`echo ../../../gprof/po/da | sed 's,.*/,,'`.gmo \
@@ -2485,8 +2473,8 @@ file=`echo ../../../gprof/po/uk | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../gprof/po/uk.po
 file=`echo ../../../gprof/po/vi | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../gprof/po/vi.po
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprof/po'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprof'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprof/po'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprof'
   GEN      config.texi
   MAKEINFO gprof.info
   CC       basic_blocks.o
@@ -2515,15 +2503,15 @@ make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprof'
   CC       fsf_callg_bl.o
   CCLD     gprof
   GEN      gprof.1
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprof'
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprof'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprof'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprof'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprof'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprof'
 mkdir -p -- ./gprofng
 Configuring in ./gprofng
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
 checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
@@ -2648,12 +2636,12 @@ config.status: creating doc/Makefile
 config.status: creating config.h
 config.status: executing depfiles commands
 config.status: executing libtool commands
-=== configuring in libcollector (/home/xyenchi/binutils-gdb/buildarm/gprofng/libcollector)
-configure: running /bin/bash ../../../gprofng/libcollector/configure --disable-option-checking '--prefix=/usr/local'  '--with-gnu-as' '--with-gnu-ld' '--enable-gprofng' '--program-transform-name=s&^&aarch64-arm-linux-gnu-&' '--disable-year2038' '--build=x86_64-pc-linux-gnu' '--host=x86_64-pc-linux-gnu' '--target=aarch64-arm-linux-gnu' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=x86_64-pc-linux-gnu' 'target_alias=aarch64-arm-linux-gnu' 'CC=gcc' 'CFLAGS=-g -O2    ' 'LDFLAGS= ' 'CXX=g++' 'CXXFLAGS=-g -O2    ' --cache-file=.././config.cache --srcdir=../../../gprofng/libcollector
+=== configuring in libcollector (/home/xyenchi/binutils-gdb/buildrv/gprofng/libcollector)
+configure: running /bin/bash ../../../gprofng/libcollector/configure --disable-option-checking '--prefix=/usr/local'  '--with-gnu-as' '--with-gnu-ld' '--enable-gprofng' '--program-transform-name=s&^&riscv64-unknown-linux-gnu-&' '--disable-year2038' '--build=x86_64-pc-linux-gnu' '--host=x86_64-pc-linux-gnu' '--target=riscv64-unknown-linux-gnu' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=x86_64-pc-linux-gnu' 'target_alias=riscv64-unknown-linux-gnu' 'CC=gcc' 'CFLAGS=-g -O2    ' 'LDFLAGS= ' 'CXX=g++' 'CXXFLAGS=-g -O2    ' --cache-file=.././config.cache --srcdir=../../../gprofng/libcollector
 configure: loading cache .././config.cache
 checking build system type... (cached) x86_64-pc-linux-gnu
 checking host system type... (cached) x86_64-pc-linux-gnu
-checking target system type... (cached) aarch64-arm-linux-gnu
+checking target system type... (cached) riscv64-unknown-linux-gnu
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
 checking for a thread-safe mkdir -p... (cached) /usr/bin/mkdir -p
@@ -2755,13 +2743,13 @@ config.status: creating Makefile
 config.status: creating lib-config.h
 config.status: executing depfiles commands
 config.status: executing libtool commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprofng'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprofng'
 make jdk_inc="" LD_NO_AS_NEEDED="-Wl,--no-as-needed" GPROFNG_CFLAGS="-Wall" GPROFNG_CPPFLAGS="-U_ASM" all-recursive
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprofng'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprofng'
 Making all in libcollector
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/libcollector'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/libcollector'
 make  all-am
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/libcollector'
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/libcollector'
 /bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../../gprofng/libcollector  -U_ASM -I.. -I../../../gprofng/libcollector -I../../../gprofng/libcollector/../common -I../../../gprofng/libcollector/../src -I../../../gprofng/libcollector/../../include  -I../../bfd -I../../../gprofng/libcollector/../..  -Wall -Wno-nonnull-compare -g -O2     -MT libgp_collector_la-gethrtime.lo -MD -MP -MF .deps/libgp_collector_la-gethrtime.Tpo -c -o libgp_collector_la-gethrtime.lo `test -f 'gethrtime.c' || echo '../../../gprofng/libcollector/'`gethrtime.c
 libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../gprofng/libcollector -U_ASM -I.. -I../../../gprofng/libcollector -I../../../gprofng/libcollector/../common -I../../../gprofng/libcollector/../src -I../../../gprofng/libcollector/../../include -I../../bfd -I../../../gprofng/libcollector/../.. -Wall -Wno-nonnull-compare -g -O2 -MT libgp_collector_la-gethrtime.lo -MD -MP -MF .deps/libgp_collector_la-gethrtime.Tpo -c ../../../gprofng/libcollector/gethrtime.c  -fPIC -DPIC -o .libs/libgp_collector_la-gethrtime.o
 libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../../gprofng/libcollector -U_ASM -I.. -I../../../gprofng/libcollector -I../../../gprofng/libcollector/../common -I../../../gprofng/libcollector/../src -I../../../gprofng/libcollector/../../include -I../../bfd -I../../../gprofng/libcollector/../.. -Wall -Wno-nonnull-compare -g -O2 -MT libgp_collector_la-gethrtime.lo -MD -MP -MF .deps/libgp_collector_la-gethrtime.Tpo -c ../../../gprofng/libcollector/gethrtime.c -o libgp_collector_la-gethrtime.o >/dev/null 2>&1
@@ -2871,13 +2859,13 @@ libtool: link: gcc -shared  -fPIC -DPIC  .libs/iotrace.o    -Wl,--version-script
 libtool: link: ar --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so rc .libs/libgp-iotrace.a  iotrace.o
 libtool: link: ranlib --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so .libs/libgp-iotrace.a
 libtool: link: ( cd ".libs" && rm -f "libgp-iotrace.la" && ln -s "../libgp-iotrace.la" "libgp-iotrace.la" )
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/libcollector'
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/libcollector'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/libcollector'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/libcollector'
 Making all in src
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/src'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/src'
 bison ../../../gprofng/src/QLParser.yy
 make  all-am
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/src'
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/src'
 depbase=`echo Application.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
 /bin/bash ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../../gprofng/src -I..  -U_ASM -DLOCALEDIR=\"/usr/local/share/locale\" -DSYSCONFDIR=\"/usr/local/etc\" -DLIBDIR=\"/usr/local/lib\" -I.. -I../../../gprofng/src -I../../../gprofng/src/../common -I../../../gprofng/src/../../include -I../../../gprofng/src/../../opcodes -I../../bfd -I../../../gprofng/src/../../bfd -I../../../gprofng/../zlib  -Wall -pthread -Wno-switch -g -O2     -MT Application.lo -MD -MP -MF $depbase.Tpo -c -o Application.lo ../../../gprofng/src/Application.cc &&\
 mv -f $depbase.Tpo $depbase.Plo
@@ -3173,7 +3161,7 @@ depbase=`echo ArchiveExp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
 g++ -DHAVE_CONFIG_H -I. -I../../../gprofng/src -I..  -U_ASM -DLOCALEDIR=\"/usr/local/share/locale\" -DSYSCONFDIR=\"/usr/local/etc\" -DLIBDIR=\"/usr/local/lib\" -I.. -I../../../gprofng/src -I../../../gprofng/src/../common -I../../../gprofng/src/../../include -I../../../gprofng/src/../../opcodes -I../../bfd -I../../../gprofng/src/../../bfd -I../../../gprofng/../zlib  -Wall -pthread -Wno-switch -g -O2     -MT ArchiveExp.o -MD -MP -MF $depbase.Tpo -c -o ArchiveExp.o ../../../gprofng/src/ArchiveExp.cc &&\
 mv -f $depbase.Tpo $depbase.Po
 /bin/bash ../libtool  --tag=CXX   --mode=link g++ -Wall -pthread -Wno-switch -g -O2       -o gp-archive gp-archive.o ArchiveExp.o libgprofng.la  -L../../zlib -lz 
-libtool: link: g++ -Wall -pthread -Wno-switch -g -O2 -o gp-archive gp-archive.o ArchiveExp.o  ./.libs/libgprofng.a -L/home/xyenchi/binutils-gdb/buildarm/zlib -L/home/xyenchi/binutils-gdb/buildarm/libiberty /home/xyenchi/binutils-gdb/buildarm/opcodes/.libs/libopcodes.a /home/xyenchi/binutils-gdb/buildarm/bfd/.libs/libbfd.a -liberty -lpthread -ldl -lz -pthread
+libtool: link: g++ -Wall -pthread -Wno-switch -g -O2 -o gp-archive gp-archive.o ArchiveExp.o  ./.libs/libgprofng.a -L/home/xyenchi/binutils-gdb/buildrv/zlib -L/home/xyenchi/binutils-gdb/buildrv/libiberty /home/xyenchi/binutils-gdb/buildrv/opcodes/.libs/libopcodes.a /home/xyenchi/binutils-gdb/buildrv/bfd/.libs/libbfd.a -liberty -lpthread -ldl -lz -pthread
 depbase=`echo gp-collect-app.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
 g++ -DHAVE_CONFIG_H -I. -I../../../gprofng/src -I..  -U_ASM -DLOCALEDIR=\"/usr/local/share/locale\" -DSYSCONFDIR=\"/usr/local/etc\" -DLIBDIR=\"/usr/local/lib\" -I.. -I../../../gprofng/src -I../../../gprofng/src/../common -I../../../gprofng/src/../../include -I../../../gprofng/src/../../opcodes -I../../bfd -I../../../gprofng/src/../../bfd -I../../../gprofng/../zlib  -Wall -pthread -Wno-switch -g -O2     -MT gp-collect-app.o -MD -MP -MF $depbase.Tpo -c -o gp-collect-app.o ../../../gprofng/src/gp-collect-app.cc &&\
 mv -f $depbase.Tpo $depbase.Po
@@ -3187,12 +3175,12 @@ depbase=`echo count.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
 g++ -DHAVE_CONFIG_H -I. -I../../../gprofng/src -I..  -U_ASM -DLOCALEDIR=\"/usr/local/share/locale\" -DSYSCONFDIR=\"/usr/local/etc\" -DLIBDIR=\"/usr/local/lib\" -I.. -I../../../gprofng/src -I../../../gprofng/src/../common -I../../../gprofng/src/../../include -I../../../gprofng/src/../../opcodes -I../../bfd -I../../../gprofng/src/../../bfd -I../../../gprofng/../zlib  -Wall -pthread -Wno-switch -g -O2     -MT count.o -MD -MP -MF $depbase.Tpo -c -o count.o ../../../gprofng/src/count.cc &&\
 mv -f $depbase.Tpo $depbase.Po
 /bin/bash ../libtool  --tag=CXX   --mode=link g++ -Wall -pthread -Wno-switch -g -O2       -o gp-collect-app gp-collect-app.o checks.o envsets.o count.o libgprofng.la  -L../../zlib -lz 
-libtool: link: g++ -Wall -pthread -Wno-switch -g -O2 -o gp-collect-app gp-collect-app.o checks.o envsets.o count.o  ./.libs/libgprofng.a -L/home/xyenchi/binutils-gdb/buildarm/zlib -L/home/xyenchi/binutils-gdb/buildarm/libiberty /home/xyenchi/binutils-gdb/buildarm/opcodes/.libs/libopcodes.a /home/xyenchi/binutils-gdb/buildarm/bfd/.libs/libbfd.a -liberty -lpthread -ldl -lz -pthread
+libtool: link: g++ -Wall -pthread -Wno-switch -g -O2 -o gp-collect-app gp-collect-app.o checks.o envsets.o count.o  ./.libs/libgprofng.a -L/home/xyenchi/binutils-gdb/buildrv/zlib -L/home/xyenchi/binutils-gdb/buildrv/libiberty /home/xyenchi/binutils-gdb/buildrv/opcodes/.libs/libopcodes.a /home/xyenchi/binutils-gdb/buildrv/bfd/.libs/libbfd.a -liberty -lpthread -ldl -lz -pthread
 depbase=`echo gprofng.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
 g++ -DHAVE_CONFIG_H -I. -I../../../gprofng/src -I..  -U_ASM -DLOCALEDIR=\"/usr/local/share/locale\" -DSYSCONFDIR=\"/usr/local/etc\" -DLIBDIR=\"/usr/local/lib\" -I.. -I../../../gprofng/src -I../../../gprofng/src/../common -I../../../gprofng/src/../../include -I../../../gprofng/src/../../opcodes -I../../bfd -I../../../gprofng/src/../../bfd -I../../../gprofng/../zlib  -Wall -pthread -Wno-switch -g -O2     -MT gprofng.o -MD -MP -MF $depbase.Tpo -c -o gprofng.o ../../../gprofng/src/gprofng.cc &&\
 mv -f $depbase.Tpo $depbase.Po
 /bin/bash ../libtool  --tag=CXX   --mode=link g++ -Wall -pthread -Wno-switch -g -O2       -o gprofng gprofng.o libgprofng.la  -L../../zlib -lz 
-libtool: link: g++ -Wall -pthread -Wno-switch -g -O2 -o gprofng gprofng.o  ./.libs/libgprofng.a -L/home/xyenchi/binutils-gdb/buildarm/zlib -L/home/xyenchi/binutils-gdb/buildarm/libiberty /home/xyenchi/binutils-gdb/buildarm/opcodes/.libs/libopcodes.a /home/xyenchi/binutils-gdb/buildarm/bfd/.libs/libbfd.a -liberty -lpthread -ldl -lz -pthread
+libtool: link: g++ -Wall -pthread -Wno-switch -g -O2 -o gprofng gprofng.o  ./.libs/libgprofng.a -L/home/xyenchi/binutils-gdb/buildrv/zlib -L/home/xyenchi/binutils-gdb/buildrv/libiberty /home/xyenchi/binutils-gdb/buildrv/opcodes/.libs/libopcodes.a /home/xyenchi/binutils-gdb/buildrv/bfd/.libs/libbfd.a -liberty -lpthread -ldl -lz -pthread
 depbase=`echo gp-display-text.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
 g++ -DHAVE_CONFIG_H -I. -I../../../gprofng/src -I..  -U_ASM -DLOCALEDIR=\"/usr/local/share/locale\" -DSYSCONFDIR=\"/usr/local/etc\" -DLIBDIR=\"/usr/local/lib\" -I.. -I../../../gprofng/src -I../../../gprofng/src/../common -I../../../gprofng/src/../../include -I../../../gprofng/src/../../opcodes -I../../bfd -I../../../gprofng/src/../../bfd -I../../../gprofng/../zlib  -Wall -pthread -Wno-switch -g -O2     -MT gp-display-text.o -MD -MP -MF $depbase.Tpo -c -o gp-display-text.o ../../../gprofng/src/gp-display-text.cc &&\
 mv -f $depbase.Tpo $depbase.Po
@@ -3203,21 +3191,21 @@ depbase=`echo ipcio.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
 g++ -DHAVE_CONFIG_H -I. -I../../../gprofng/src -I..  -U_ASM -DLOCALEDIR=\"/usr/local/share/locale\" -DSYSCONFDIR=\"/usr/local/etc\" -DLIBDIR=\"/usr/local/lib\" -I.. -I../../../gprofng/src -I../../../gprofng/src/../common -I../../../gprofng/src/../../include -I../../../gprofng/src/../../opcodes -I../../bfd -I../../../gprofng/src/../../bfd -I../../../gprofng/../zlib  -Wall -pthread -Wno-switch -g -O2     -MT ipcio.o -MD -MP -MF $depbase.Tpo -c -o ipcio.o ../../../gprofng/src/ipcio.cc &&\
 mv -f $depbase.Tpo $depbase.Po
 /bin/bash ../libtool  --tag=CXX   --mode=link g++ -Wall -pthread -Wno-switch -g -O2       -o gp-display-text gp-display-text.o ipc.o ipcio.o libgprofng.la  -L../../zlib -lz 
-libtool: link: g++ -Wall -pthread -Wno-switch -g -O2 -o gp-display-text gp-display-text.o ipc.o ipcio.o  ./.libs/libgprofng.a -L/home/xyenchi/binutils-gdb/buildarm/zlib -L/home/xyenchi/binutils-gdb/buildarm/libiberty /home/xyenchi/binutils-gdb/buildarm/opcodes/.libs/libopcodes.a /home/xyenchi/binutils-gdb/buildarm/bfd/.libs/libbfd.a -liberty -lpthread -ldl -lz -pthread
+libtool: link: g++ -Wall -pthread -Wno-switch -g -O2 -o gp-display-text gp-display-text.o ipc.o ipcio.o  ./.libs/libgprofng.a -L/home/xyenchi/binutils-gdb/buildrv/zlib -L/home/xyenchi/binutils-gdb/buildrv/libiberty /home/xyenchi/binutils-gdb/buildrv/opcodes/.libs/libopcodes.a /home/xyenchi/binutils-gdb/buildrv/bfd/.libs/libbfd.a -liberty -lpthread -ldl -lz -pthread
 depbase=`echo gp-display-src.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
 g++ -DHAVE_CONFIG_H -I. -I../../../gprofng/src -I..  -U_ASM -DLOCALEDIR=\"/usr/local/share/locale\" -DSYSCONFDIR=\"/usr/local/etc\" -DLIBDIR=\"/usr/local/lib\" -I.. -I../../../gprofng/src -I../../../gprofng/src/../common -I../../../gprofng/src/../../include -I../../../gprofng/src/../../opcodes -I../../bfd -I../../../gprofng/src/../../bfd -I../../../gprofng/../zlib  -Wall -pthread -Wno-switch -g -O2     -MT gp-display-src.o -MD -MP -MF $depbase.Tpo -c -o gp-display-src.o ../../../gprofng/src/gp-display-src.cc &&\
 mv -f $depbase.Tpo $depbase.Po
 /bin/bash ../libtool  --tag=CXX   --mode=link g++ -Wall -pthread -Wno-switch -g -O2       -o gp-display-src gp-display-src.o libgprofng.la  -L../../zlib -lz 
-libtool: link: g++ -Wall -pthread -Wno-switch -g -O2 -o gp-display-src gp-display-src.o  ./.libs/libgprofng.a -L/home/xyenchi/binutils-gdb/buildarm/zlib -L/home/xyenchi/binutils-gdb/buildarm/libiberty /home/xyenchi/binutils-gdb/buildarm/opcodes/.libs/libopcodes.a /home/xyenchi/binutils-gdb/buildarm/bfd/.libs/libbfd.a -liberty -lpthread -ldl -lz -pthread
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/src'
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/src'
+libtool: link: g++ -Wall -pthread -Wno-switch -g -O2 -o gp-display-src gp-display-src.o  ./.libs/libgprofng.a -L/home/xyenchi/binutils-gdb/buildrv/zlib -L/home/xyenchi/binutils-gdb/buildrv/libiberty /home/xyenchi/binutils-gdb/buildrv/opcodes/.libs/libopcodes.a /home/xyenchi/binutils-gdb/buildrv/bfd/.libs/libbfd.a -liberty -lpthread -ldl -lz -pthread
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/src'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/src'
 Making all in gp-display-html
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/gp-display-html'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/gp-display-html'
 sed -e 's/BINUTILS_VERSION/2.41/' < ../../../gprofng/gp-display-html/gp-display-html.in > gp-display-html
 chmod +x gp-display-html
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/gp-display-html'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/gp-display-html'
 Making all in doc
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/doc'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/doc'
 restore=: && backupdir=".am$$" && \
 rm -rf $backupdir && mkdir $backupdir && \
 if (makeinfo --split-size=5000000 --split-size=5000000 --version) >/dev/null 2>&1; then \
@@ -3264,17 +3252,17 @@ perl ../../../gprofng/doc/../../etc/texi2pod.pl  -Dman < ../../../gprofng/doc/`b
 (pod2man --center="User Commands" --release="binutils-2.41" --section=1 gp-display-text.1.pod | sed -e '/^.if n .na/d' > gp-display-text.1.tmp && \
   mv -f gp-display-text.1.tmp gp-display-text.1) || (rm -f gp-display-text.1.tmp && exit 1)
 rm -f gp-display-text.1.pod
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprofng/doc'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gprofng'
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprofng'
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprofng'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gprofng'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprofng/doc'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gprofng'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprofng'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprofng'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gprofng'
 mkdir -p -- ./ld
 Configuring in ./ld
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
 checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
@@ -3440,17 +3428,17 @@ config.status: executing depfiles commands
 config.status: executing libtool commands
 config.status: executing default-1 commands
 config.status: executing default commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
   YACC     ldgram.c
 updating ldgram.h
 (echo "/* This file is automatically generated.  DO NOT EDIT! */";\
-for f in `echo " " eaarch64linux.o eaarch64elf.o eaarch64elf32.o eaarch64elf32b.o eaarch64elfb.o earmelf.o earmelfb.o eaarch64linuxb.o eaarch64linux32.o eaarch64linux32b.o earmelfb_linux_eabi.o earmelf_linux_eabi.o "" \
+for f in `echo " " eelf64lriscv.o eelf64lriscv_lp64f.o eelf64lriscv_lp64.o eelf32lriscv.o eelf32lriscv_ilp32f.o eelf32lriscv_ilp32.o eelf64briscv.o eelf64briscv_lp64f.o eelf64briscv_lp64.o eelf32briscv.o eelf32briscv_ilp32f.o eelf32briscv_ilp32.o "" \
  | sed -e 's/ e/ ld/g' -e 's/ ld/ /g' -e 's/[.]o//g'`; do \
     echo "extern ld_emulation_xfer_type ld_${f}_emulation;"; \
 done;\
 echo "";\
 echo "#define EMULATION_LIST \\";\
-for f in `echo " " eaarch64linux.o eaarch64elf.o eaarch64elf32.o eaarch64elf32b.o eaarch64elfb.o earmelf.o earmelfb.o eaarch64linuxb.o eaarch64linux32.o eaarch64linux32b.o earmelfb_linux_eabi.o earmelf_linux_eabi.o "" \
+for f in `echo " " eelf64lriscv.o eelf64lriscv_lp64f.o eelf64lriscv_lp64.o eelf32lriscv.o eelf32lriscv_ilp32f.o eelf32lriscv_ilp32.o eelf64briscv.o eelf64briscv_lp64f.o eelf64briscv_lp64.o eelf32briscv.o eelf32briscv_ilp32f.o eelf32briscv_ilp32.o "" \
  | sed -e 's/ e/ ld/g' -e 's/ ld/ /g' -e 's/[.]o//g'`; do \
     echo "  &ld_${f}_emulation, \\"; \
 done;\
@@ -3459,9 +3447,9 @@ mv ldemul-tmp.h ldemul-list.h
   YACC     deffilep.c
 updating deffilep.h
 make  all-recursive
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
 Making all in po
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld/po'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld/po'
 ( if test 'x../../../ld/po' != 'x.'; then \
     posrcprefix='../../../ld/'; \
   else \
@@ -3525,8 +3513,8 @@ file=`echo ../../../ld/po/zh_CN | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../ld/po/zh_CN.po
 file=`echo ../../../ld/po/zh_TW | sed 's,.*/,,'`.gmo \
   && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ../../../ld/po/zh_TW.po
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld/po'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld/po'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
   GEN      configdoc.texi
   MAKEINFO ld.info
   MAKEINFO ldint.info
@@ -3558,67 +3546,67 @@ make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
   CC       plugin.o
   CC       ldbuildid.o
   GEN      stringify.sed
-  GEN      eaarch64linux.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       eaarch64linux.o
-  GEN      eaarch64elf.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       eaarch64elf.o
-  GEN      eaarch64elf32.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       eaarch64elf32.o
-  GEN      eaarch64elf32b.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       eaarch64elf32b.o
-  GEN      eaarch64elfb.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       eaarch64elfb.o
-  GEN      earmelf.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       earmelf.o
-  GEN      earmelfb.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       earmelfb.o
-  GEN      eaarch64linuxb.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       eaarch64linuxb.o
-  GEN      eaarch64linux32.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       eaarch64linux32.o
-  GEN      eaarch64linux32b.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       eaarch64linux32b.o
-  GEN      earmelfb_linux_eabi.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       earmelfb_linux_eabi.o
-  GEN      earmelf_linux_eabi.c
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-  CC       earmelf_linux_eabi.o
+  GEN      eelf64lriscv.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf64lriscv.o
+  GEN      eelf64lriscv_lp64f.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf64lriscv_lp64f.o
+  GEN      eelf64lriscv_lp64.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf64lriscv_lp64.o
+  GEN      eelf32lriscv.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf32lriscv.o
+  GEN      eelf32lriscv_ilp32f.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf32lriscv_ilp32f.o
+  GEN      eelf32lriscv_ilp32.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf32lriscv_ilp32.o
+  GEN      eelf64briscv.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf64briscv.o
+  GEN      eelf64briscv_lp64f.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf64briscv_lp64f.o
+  GEN      eelf64briscv_lp64.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf64briscv_lp64.o
+  GEN      eelf32briscv.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf32briscv.o
+  GEN      eelf32briscv_ilp32f.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf32briscv_ilp32f.o
+  GEN      eelf32briscv_ilp32.c
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+  CC       eelf32briscv_ilp32.o
   CC       ldelf.o
   CC       ldelfgen.o
   CCLD     ld-new
   GEN      ld.1
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/ld'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/ld'
 mkdir -p -- ./libbacktrace
 Configuring in ./libbacktrace
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for x86_64-pc-linux-gnu-gcc... gcc
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
@@ -3769,9 +3757,9 @@ config.status: creating config.h
 config.status: executing libtool commands
 config.status: executing gstdint.h commands
 config.status: executing default commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/libbacktrace'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/libbacktrace'
 make  all-am
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/libbacktrace'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/libbacktrace'
 /bin/bash ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../../libbacktrace  -I ../../libbacktrace/../include -I ../../libbacktrace/../libgcc -I ../libgcc  -funwind-tables -frandom-seed=atomic.lo -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual   -g -O2     -c -o atomic.lo ../../libbacktrace/atomic.c
 libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../libbacktrace -I ../../libbacktrace/../include -I ../../libbacktrace/../libgcc -I ../libgcc -funwind-tables -frandom-seed=atomic.lo -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -g -O2 -c ../../libbacktrace/atomic.c  -fPIC -DPIC -o .libs/atomic.o
 libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../../libbacktrace -I ../../libbacktrace/../include -I ../../libbacktrace/../libgcc -I ../libgcc -funwind-tables -frandom-seed=atomic.lo -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -g -O2 -c ../../libbacktrace/atomic.c -o atomic.o >/dev/null 2>&1
@@ -3813,8 +3801,8 @@ libtool: link: ar --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so --p
 libtool: link: ranlib --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so .libs/libbacktrace.a
 libtool: link: ( cd ".libs" && rm -f "libbacktrace.la" && ln -s "../libbacktrace.la" "libbacktrace.la" )
 true  DO=all multi-do # make
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libbacktrace'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libbacktrace'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/libbacktrace'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/libbacktrace'
 mkdir -p -- ./libdecnumber
 Configuring in ./libdecnumber
 configure: creating cache ./config.cache
@@ -3878,28 +3866,24 @@ checking size of long... 8
 checking for ANSI C header files... (cached) yes
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
-checking for decimal floating point... bid
+checking target system type... riscv64-unknown-linux-gnu
+checking for decimal floating point... dpd
 checking whether byte ordering is bigendian... no
 configure: updating cache ./config.cache
 configure: creating ./config.status
 config.status: creating Makefile
 config.status: creating config.h
 config.status: executing gstdint.h commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/libdecnumber'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/libdecnumber'
 source='../../libdecnumber/decNumber.c' object='decNumber.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/decNumber.c
 source='../../libdecnumber/decContext.c' object='decContext.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/decContext.c
-source='../../libdecnumber/bid/decimal32.c' object='decimal32.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/bid/decimal32.c
-source='../../libdecnumber/bid/decimal64.c' object='decimal64.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/bid/decimal64.c
-source='../../libdecnumber/bid/decimal128.c' object='decimal128.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/bid/decimal128.c
-source='../../libdecnumber/bid/bid2dpd_dpd2bid.c' object='bid2dpd_dpd2bid.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/bid/bid2dpd_dpd2bid.c
-source='../../libdecnumber/bid/host-ieee32.c' object='host-ieee32.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/bid/host-ieee32.c
-source='../../libdecnumber/bid/host-ieee64.c' object='host-ieee64.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/bid/host-ieee64.c
-source='../../libdecnumber/bid/host-ieee128.c' object='host-ieee128.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/bid/host-ieee128.c
+source='../../libdecnumber/dpd/decimal32.c' object='decimal32.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/dpd/decimal32.c
+source='../../libdecnumber/dpd/decimal64.c' object='decimal64.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/dpd/decimal64.c
+source='../../libdecnumber/dpd/decimal128.c' object='decimal128.o' libtool=no gcc  -I../../libdecnumber -I.  -g -O2     -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wold-style-definition -Wmissing-format-attribute -Wcast-qual -pedantic -Wno-long-long  -fno-lto -I../../libdecnumber -I.   -c ../../libdecnumber/dpd/decimal128.c
 rm -f libdecnumber.a
-ar --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so cru libdecnumber.a decNumber.o decContext.o decimal32.o decimal64.o decimal128.o bid2dpd_dpd2bid.o host-ieee32.o host-ieee64.o host-ieee128.o
+ar --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so cru libdecnumber.a decNumber.o decContext.o decimal32.o decimal64.o decimal128.o 
 ranlib --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so libdecnumber.a
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/libdecnumber'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/libdecnumber'
 mkdir -p -- ./readline
 Configuring in ./readline
 configure: creating cache ./config.cache
@@ -3914,8 +3898,8 @@ configure: updating cache ./config.cache
 checking that generated files are newer than configure... done
 configure: creating ./config.status
 config.status: creating Makefile
-=== configuring in readline (/home/xyenchi/binutils-gdb/buildarm/readline/readline)
-configure: running /bin/bash ../../../readline/readline/configure --disable-option-checking '--prefix=/usr/local'  '--with-gnu-as' '--with-gnu-ld' '--enable-gprofng' '--program-transform-name=s&^&aarch64-arm-linux-gnu-&' '--disable-year2038' '--build=x86_64-pc-linux-gnu' '--host=x86_64-pc-linux-gnu' '--target=aarch64-arm-linux-gnu' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=x86_64-pc-linux-gnu' 'target_alias=aarch64-arm-linux-gnu' --cache-file=.././config.cache --srcdir=../../../readline/readline
+=== configuring in readline (/home/xyenchi/binutils-gdb/buildrv/readline/readline)
+configure: running /bin/bash ../../../readline/readline/configure --disable-option-checking '--prefix=/usr/local'  '--with-gnu-as' '--with-gnu-ld' '--enable-gprofng' '--program-transform-name=s&^&riscv64-unknown-linux-gnu-&' '--disable-year2038' '--build=x86_64-pc-linux-gnu' '--host=x86_64-pc-linux-gnu' '--target=riscv64-unknown-linux-gnu' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=x86_64-pc-linux-gnu' 'target_alias=riscv64-unknown-linux-gnu' --cache-file=.././config.cache --srcdir=../../../readline/readline
 configure: loading cache .././config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
@@ -4111,9 +4095,9 @@ config.status: creating shlib/Makefile
 config.status: creating readline.pc
 config.status: creating config.h
 config.status: executing default commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/readline'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/readline'
 Making all in readline
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/readline/readline'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/readline/readline'
 rm -f readline.o
 gcc -c  -DHAVE_CONFIG_H   -I. -I../../../readline/readline  -DRL_LIBRARY_VERSION='"8.1"' -DBRACKETED_PASTE_DEFAULT=1 -g -O2     ../../../readline/readline/readline.c
 rm -f vi_mode.o
@@ -4188,11 +4172,11 @@ test -n "ranlib --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so" && r
 rm -f libhistory.a
 ar --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so cr libhistory.a history.o histexpand.o histfile.o histsearch.o shell.o mbutil.o xmalloc.o xfree.o
 test -n "ranlib --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so" && ranlib --plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so libhistory.a
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/readline/readline'
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/readline'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/readline/readline'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/readline'
 make[3]: Nothing to be done for 'all-am'.
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/readline'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/readline'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/readline'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/readline'
 mkdir -p -- ./gnulib
 Configuring in ./gnulib
 configure: creating cache ./config.cache
@@ -4254,7 +4238,7 @@ checking whether it is safe to define __EXTENSIONS__... yes
 checking whether _XOPEN_SOURCE should be defined... no
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for dlfcn.h... yes
 checking for windows.h... no
 checking for library containing dlsym... none required
@@ -4585,11 +4569,11 @@ config.status: creating import/Makefile
 config.status: creating config.h
 config.status: executing depfiles commands
 config.status: executing default commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gnulib'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gnulib'
 make  all-recursive
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gnulib'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gnulib'
 Making all in import
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gnulib/import'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gnulib/import'
   GEN      alloca.h
   GEN      arpa/inet.h
   GEN      ctype.h
@@ -4621,8 +4605,8 @@ make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gnulib/import'
   GEN      wchar.h
   GEN      wctype.h
 make  all-recursive
-make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gnulib/import'
-make[6]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gnulib/import'
+make[5]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gnulib/import'
+make[6]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gnulib/import'
   CC       libgnu_a-openat-proc.o
   CC       libgnu_a-basename-lgpl.o
   CC       libgnu_a-chdir-long.o
@@ -4666,19 +4650,19 @@ make[6]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gnulib/import'
   CC       libgnu_a-wctype-h.o
   CC       strerror_r.o
   AR       libgnu.a
-make[6]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gnulib/import'
-make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gnulib/import'
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gnulib/import'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gnulib'
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gnulib'
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gnulib'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gnulib'
+make[6]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gnulib/import'
+make[5]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gnulib/import'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gnulib/import'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gnulib'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gnulib'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gnulib'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gnulib'
 mkdir -p -- ./sim
 Configuring in ./sim
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for x86_64-pc-linux-gnu-gcc... gcc
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
@@ -4879,8 +4863,8 @@ checking whether make supports nested variables... yes
 checking dependency style of gcc... gcc3
 checking whether make supports nested variables... (cached) yes
 checking where to find the target cc... pre-installed
-checking where to find the target as... pre-installed in /home/xyenchi/binutils-gdb/buildarm/./gas
-checking where to find the target ld... pre-installed in /home/xyenchi/binutils-gdb/buildarm/./ld
+checking where to find the target as... pre-installed in /home/xyenchi/binutils-gdb/buildrv/./gas
+checking where to find the target ld... pre-installed in /home/xyenchi/binutils-gdb/buildrv/./ld
 checking whether to force sim alignment... no
 checking whether to enable sim asserts... 1
 checking for sim debug setting... 0
@@ -4904,18 +4888,18 @@ checking whether sim rx should be cycle accurate... yes
 configure: updating cache ./config.cache
 checking that generated files are newer than configure... done
 configure: creating ./config.status
-config.status: creating aarch64/.gdbinit
+config.status: creating riscv/.gdbinit
 config.status: creating arch-subdir.mk
 config.status: creating Makefile
 config.status: creating .gdbinit
 config.status: creating config.h
 config.status: executing libtool commands
 config.status: executing depfiles commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/sim'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/sim'
 make  all-recursive
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/sim'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/sim'
-  GEN      aarch64/stamp-hw
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/sim'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/sim'
+  GEN      riscv/stamp-hw
   CC       common/callback.o
   CC       common/portability.o
   CC       common/sim-load.o
@@ -4928,67 +4912,66 @@ make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/sim'
   GEN      common/version.c-stamp
   CC       common/version.o
   AR       common/libcommon.a
-  GEN      aarch64/stamp-modules
-  CC       aarch64/modules.o
-  CC       aarch64/sim-arange.o
-  CC       aarch64/sim-bits.o
-  CC       aarch64/sim-close.o
-  CC       aarch64/sim-command.o
-  CC       aarch64/sim-config.o
-  CC       aarch64/sim-core.o
-  CC       aarch64/sim-cpu.o
-  CC       aarch64/sim-endian.o
-  CC       aarch64/sim-engine.o
-  CC       aarch64/sim-events.o
-  CC       aarch64/sim-fpu.o
-  CC       aarch64/sim-hload.o
-  CC       aarch64/sim-hrw.o
-  CC       aarch64/sim-io.o
-  CC       aarch64/sim-info.o
-  CC       aarch64/sim-memopt.o
-  CC       aarch64/sim-model.o
-  CC       aarch64/sim-module.o
-  CC       aarch64/sim-options.o
-  CC       aarch64/sim-profile.o
-  CC       aarch64/sim-reason.o
-  CC       aarch64/sim-reg.o
-  CC       aarch64/sim-stop.o
-  CC       aarch64/sim-syscall.o
-  CC       aarch64/sim-trace.o
-  CC       aarch64/sim-utils.o
-  CC       aarch64/sim-watch.o
-  CC       aarch64/hw-alloc.o
-  CC       aarch64/hw-base.o
-  CC       aarch64/hw-device.o
-  CC       aarch64/hw-events.o
-  CC       aarch64/hw-handles.o
-  CC       aarch64/hw-instances.o
-  CC       aarch64/hw-ports.o
-  CC       aarch64/hw-properties.o
-  CC       aarch64/hw-tree.o
-  CC       aarch64/sim-hw.o
-  CC       aarch64/dv-sockser.o
-  CC       aarch64/dv-cfi.o
-  CC       aarch64/dv-core.o
-  CC       aarch64/dv-pal.o
-  CC       aarch64/dv-glue.o
-  CC       aarch64/cpustate.o
-  CC       aarch64/interp.o
-  CC       aarch64/memory.o
-  CC       aarch64/sim-resume.o
-  CC       aarch64/simulator.o
-  AR       aarch64/libsim.a
-  CC       aarch64/nrun.o
-  CCLD     aarch64/run
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/sim'
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/sim'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/sim'
+  GEN      riscv/stamp-modules
+  CC       riscv/modules.o
+  CC       riscv/sim-arange.o
+  CC       riscv/sim-bits.o
+  CC       riscv/sim-close.o
+  CC       riscv/sim-command.o
+  CC       riscv/sim-config.o
+  CC       riscv/sim-core.o
+  CC       riscv/sim-cpu.o
+  CC       riscv/sim-endian.o
+  CC       riscv/sim-engine.o
+  CC       riscv/sim-events.o
+  CC       riscv/sim-fpu.o
+  CC       riscv/sim-hload.o
+  CC       riscv/sim-hrw.o
+  CC       riscv/sim-io.o
+  CC       riscv/sim-info.o
+  CC       riscv/sim-memopt.o
+  CC       riscv/sim-model.o
+  CC       riscv/sim-module.o
+  CC       riscv/sim-options.o
+  CC       riscv/sim-profile.o
+  CC       riscv/sim-reason.o
+  CC       riscv/sim-reg.o
+  CC       riscv/sim-stop.o
+  CC       riscv/sim-syscall.o
+  CC       riscv/sim-trace.o
+  CC       riscv/sim-utils.o
+  CC       riscv/sim-watch.o
+  CC       riscv/hw-alloc.o
+  CC       riscv/hw-base.o
+  CC       riscv/hw-device.o
+  CC       riscv/hw-events.o
+  CC       riscv/hw-handles.o
+  CC       riscv/hw-instances.o
+  CC       riscv/hw-ports.o
+  CC       riscv/hw-properties.o
+  CC       riscv/hw-tree.o
+  CC       riscv/sim-hw.o
+  CC       riscv/dv-sockser.o
+  CC       riscv/dv-cfi.o
+  CC       riscv/dv-core.o
+  CC       riscv/dv-pal.o
+  CC       riscv/dv-glue.o
+  CC       riscv/interp.o
+  CC       riscv/machs.o
+  CC       riscv/sim-main.o
+  CC       riscv/sim-resume.o
+  AR       riscv/libsim.a
+  CC       riscv/nrun.o
+  CCLD     riscv/run
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/sim'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/sim'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/sim'
 mkdir -p -- ./gdbsupport
 Configuring in ./gdbsupport
 configure: creating cache ./config.cache
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking whether to enable maintainer-specific portions of Makefiles... no
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
@@ -5184,9 +5167,9 @@ configure: creating ./config.status
 config.status: creating Makefile
 config.status: creating config.h
 config.status: executing depfiles commands
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gdbsupport'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gdbsupport'
 make  all-am
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gdbsupport'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gdbsupport'
   CXX      agent.o
   CXX      btrace-common.o
   CXX      cleanups.o
@@ -5226,8 +5209,8 @@ make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gdbsupport'
   CXX      xml-utils.o
   CXX      event-pipe.o
   AR       libgdbsupport.a
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gdbsupport'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gdbsupport'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gdbsupport'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gdbsupport'
 mkdir -p -- ./gdb
 Configuring in ./gdb
 configure: creating cache ./config.cache
@@ -5262,7 +5245,7 @@ checking for minix/config.h... no
 checking whether it is safe to define __EXTENSIONS__... yes
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking target system type... aarch64-arm-linux-gnu
+checking target system type... riscv64-unknown-linux-gnu
 checking for dlfcn.h... yes
 checking for windows.h... no
 checking for library containing dlsym... none required
@@ -5647,12 +5630,12 @@ config.status: creating config.h
 config.status: executing libtool commands
 config.status: executing depdir commands
 mkdir -p -- .deps
-=== configuring in testsuite (/home/xyenchi/binutils-gdb/buildarm/gdb/testsuite)
-configure: running /bin/bash ../../../gdb/testsuite/configure --disable-option-checking '--prefix=/usr/local'  '--with-gnu-as' '--with-gnu-ld' '--enable-gprofng' '--program-transform-name=s&^&aarch64-arm-linux-gnu-&' '--disable-year2038' '--build=x86_64-pc-linux-gnu' '--host=x86_64-pc-linux-gnu' '--target=aarch64-arm-linux-gnu' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=x86_64-pc-linux-gnu' 'target_alias=aarch64-arm-linux-gnu' 'CC=gcc' 'CFLAGS=-g -O2    ' 'LDFLAGS= ' 'CXX=g++' 'CXXFLAGS=-g -O2    ' 'PKG_CONFIG_PATH=' 'MAKEINFO=makeinfo --split-size=5000000' 'YACC=bison -y' 'GMPLIBS=-lmpfr -lgmp' 'GMPINC=' --cache-file=.././config.cache --srcdir=../../../gdb/testsuite
+=== configuring in testsuite (/home/xyenchi/binutils-gdb/buildrv/gdb/testsuite)
+configure: running /bin/bash ../../../gdb/testsuite/configure --disable-option-checking '--prefix=/usr/local'  '--with-gnu-as' '--with-gnu-ld' '--enable-gprofng' '--program-transform-name=s&^&riscv64-unknown-linux-gnu-&' '--disable-year2038' '--build=x86_64-pc-linux-gnu' '--host=x86_64-pc-linux-gnu' '--target=riscv64-unknown-linux-gnu' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=x86_64-pc-linux-gnu' 'target_alias=riscv64-unknown-linux-gnu' 'CC=gcc' 'CFLAGS=-g -O2    ' 'LDFLAGS= ' 'CXX=g++' 'CXXFLAGS=-g -O2    ' 'PKG_CONFIG_PATH=' 'MAKEINFO=makeinfo --split-size=5000000' 'YACC=bison -y' 'GMPLIBS=-lmpfr -lgmp' 'GMPINC=' --cache-file=.././config.cache --srcdir=../../../gdb/testsuite
 configure: loading cache .././config.cache
 checking build system type... (cached) x86_64-pc-linux-gnu
 checking host system type... (cached) x86_64-pc-linux-gnu
-checking target system type... (cached) aarch64-arm-linux-gnu
+checking target system type... (cached) riscv64-unknown-linux-gnu
 checking for x86_64-pc-linux-gnu-gcc... (cached) gcc
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
@@ -5682,7 +5665,7 @@ configure: updating cache .././config.cache
 configure: creating ./config.status
 config.status: creating lib/pdtrace
 config.status: creating Makefile
-make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gdb'
+make[2]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gdb'
 /bin/bash ../../gdb/../mkinstalldirs arch/.deps
 mkdir -p -- arch/.deps
 /bin/bash ../../gdb/../mkinstalldirs cli/.deps
@@ -5707,10 +5690,6 @@ mkdir -p -- target/.deps
 mkdir -p -- nat/.deps
   LEX    ada-lex.c
   CXX    gdb.o
-  CXX    aarch32-tdep.o
-  CXX    aarch64-linux-tdep.o
-  CXX    aarch64-ravenscar-thread.o
-  CXX    aarch64-tdep.o
   YACC   ada-exp.c
   CXX    ada-exp.o
   CXX    ada-lang.o
@@ -5723,15 +5702,7 @@ mkdir -p -- nat/.deps
   CXX    alloc.o
   CXX    annotate.o
   CXX    arch-utils.o
-  CXX    arch/aarch32.o
-  CXX    arch/aarch64-insn.o
-  CXX    arch/aarch64-mte-linux.o
-  CXX    arch/aarch64.o
-  CXX    arch/arm-get-next-pcs.o
-  CXX    arch/arm-linux.o
-  CXX    arch/arm.o
-  CXX    arm-linux-tdep.o
-  CXX    arm-tdep.o
+  CXX    arch/riscv.o
   CXX    async-event.o
   CXX    auto-load.o
   CXX    auxv.o
@@ -6006,6 +5977,10 @@ mkdir -p -- nat/.deps
   CXX    remote-sim.o
   CXX    remote.o
   CXX    reverse.o
+  CXX    riscv-linux-tdep.o
+  CXX    riscv-none-tdep.o
+  CXX    riscv-ravenscar-thread.o
+  CXX    riscv-tdep.o
   CXX    run-on-main-thread.o
   CXX    rust-lang.o
   CXX    rust-parse.o
@@ -6092,8 +6067,8 @@ mkdir -p -- nat/.deps
   GEN    init.c
   CXX    init.o
   CXXLD  gdb
-make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gdb'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gdb/doc'
+make[3]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gdb'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gdb/doc'
 (test "ln -s" = "ln -s" && \
   ln -s ../../../gdb/doc/all-cfg.texi gdb-cfg.texi) || \
 ln ../../../gdb/doc/all-cfg.texi gdb-cfg.texi || \
@@ -6122,10 +6097,10 @@ makeinfo --split-size=5000000 --split-size=5000000  -DHAVE_MAKEINFO_CLICK -I ../
 	-o gdb.info ../../../gdb/doc/gdb.texinfo
 makeinfo --split-size=5000000 --split-size=5000000  -DHAVE_MAKEINFO_CLICK -I ../../../gdb/doc -o stabs.info ../../../gdb/doc/stabs.texinfo
 makeinfo --split-size=5000000 --split-size=5000000  -DHAVE_MAKEINFO_CLICK -I ../../../gdb/doc -o annotate.info ../../../gdb/doc/annotate.texinfo
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gdb/doc'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gdb/testsuite'
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gdb/testsuite'
-make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildarm/gdb/data-directory'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gdb/doc'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gdb/testsuite'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gdb/testsuite'
+make[4]: Entering directory '/home/xyenchi/binutils-gdb/buildrv/gdb/data-directory'
 rm -rf ./syscalls
 mkdir ./syscalls
 files='gdb-syscalls.dtd freebsd.xml netbsd.xml aarch64-linux.xml amd64-linux.xml arm-linux.xml i386-linux.xml mips-n32-linux.xml mips-n64-linux.xml mips-o32-linux.xml ppc-linux.xml ppc64-linux.xml s390-linux.xml s390x-linux.xml sparc-linux.xml sparc64-linux.xml' ; \
@@ -6178,8 +6153,8 @@ for file in $files ; do \
   fi ; \
 done
 touch stamp-system-gdbinit
-make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gdb/data-directory'
-make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gdb'
-make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm/gdb'
+make[4]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gdb/data-directory'
+make[3]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gdb'
+make[2]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv/gdb'
 make[1]: Nothing to be done for 'all-target'.
-make[1]: Leaving directory '/home/xyenchi/binutils-gdb/buildarm'
+make[1]: Leaving directory '/home/xyenchi/binutils-gdb/buildrv'
