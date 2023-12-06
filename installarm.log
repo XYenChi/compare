@@ -1,17 +1,17 @@
-make[1]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm'
+make[1]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv'
 /bin/sh ../mkinstalldirs /usr/local /usr/local
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/libsframe'
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/libsframe'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/libsframe'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/libsframe'
  /usr/bin/mkdir -p '/usr/local/share/info'
  /usr/bin/install -c -m 644 ./doc/sframe-spec.info '/usr/local/share/info'
  install-info --info-dir='/usr/local/share/info' '/usr/local/share/info/sframe-spec.info'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/libsframe'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/libsframe'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/bfd'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/libsframe'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/libsframe'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/bfd'
 make  install-recursive
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/bfd'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/bfd'
 Making install in po
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/bfd/po'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/bfd/po'
 if test -r ../../../bfd/../mkinstalldirs; then \
   ../../../bfd/../mkinstalldirs /usr/local/share; \
 else \
@@ -24,14 +24,10 @@ installing fr.gmo as /usr/local/share/locale/fr/LC_MESSAGES/bfd.mo
 installing hr.gmo as /usr/local/share/locale/hr/LC_MESSAGES/bfd.mo
 installing id.gmo as /usr/local/share/locale/id/LC_MESSAGES/bfd.mo
 installing ja.gmo as /usr/local/share/locale/ja/LC_MESSAGES/bfd.mo
-mkdir -p -- /usr/local/share/locale/ka/LC_MESSAGES
 installing ka.gmo as /usr/local/share/locale/ka/LC_MESSAGES/bfd.mo
-mkdir -p -- /usr/local/share/locale/pt/LC_MESSAGES
 installing pt.gmo as /usr/local/share/locale/pt/LC_MESSAGES/bfd.mo
-mkdir -p -- /usr/local/share/locale/ro/LC_MESSAGES
 installing ro.gmo as /usr/local/share/locale/ro/LC_MESSAGES/bfd.mo
 installing ru.gmo as /usr/local/share/locale/ru/LC_MESSAGES/bfd.mo
-mkdir -p -- /usr/local/share/locale/rw/LC_MESSAGES
 installing rw.gmo as /usr/local/share/locale/rw/LC_MESSAGES/bfd.mo
 installing sr.gmo as /usr/local/share/locale/sr/LC_MESSAGES/bfd.mo
 installing sv.gmo as /usr/local/share/locale/sv/LC_MESSAGES/bfd.mo
@@ -50,26 +46,26 @@ if test "bfd" = "gettext"; then \
 else \
   : ; \
 fi
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/bfd/po'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/bfd'
-make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/bfd'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/bfd/po'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/bfd'
+make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/bfd'
 make[5]: Nothing to be done for 'install-exec-am'.
  /usr/bin/mkdir -p '/usr/local/share/info'
  /usr/bin/install -c -m 644 ./doc/bfd.info '/usr/local/share/info'
  install-info --info-dir='/usr/local/share/info' '/usr/local/share/info/bfd.info'
-make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/bfd'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/bfd'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/bfd'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/bfd'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/opcodes'
+make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/bfd'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/bfd'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/bfd'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/bfd'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/opcodes'
 Making install in .
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/opcodes'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/opcodes'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/opcodes'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/opcodes'
 make[4]: Nothing to be done for 'install-exec-am'.
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/opcodes'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/opcodes'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/opcodes'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/opcodes'
 Making install in po
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/opcodes/po'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/opcodes/po'
 if test -r ../../../opcodes/../mkinstalldirs; then \
   ../../../opcodes/../mkinstalldirs /usr/local/share; \
 else \
@@ -80,10 +76,8 @@ installing de.gmo as /usr/local/share/locale/de/LC_MESSAGES/opcodes.mo
 installing es.gmo as /usr/local/share/locale/es/LC_MESSAGES/opcodes.mo
 installing fi.gmo as /usr/local/share/locale/fi/LC_MESSAGES/opcodes.mo
 installing fr.gmo as /usr/local/share/locale/fr/LC_MESSAGES/opcodes.mo
-mkdir -p -- /usr/local/share/locale/ga/LC_MESSAGES
 installing ga.gmo as /usr/local/share/locale/ga/LC_MESSAGES/opcodes.mo
 installing id.gmo as /usr/local/share/locale/id/LC_MESSAGES/opcodes.mo
-mkdir -p -- /usr/local/share/locale/it/LC_MESSAGES
 installing it.gmo as /usr/local/share/locale/it/LC_MESSAGES/opcodes.mo
 installing nl.gmo as /usr/local/share/locale/nl/LC_MESSAGES/opcodes.mo
 installing pt_BR.gmo as /usr/local/share/locale/pt_BR/LC_MESSAGES/opcodes.mo
@@ -105,19 +99,18 @@ if test "opcodes" = "gettext"; then \
 else \
   : ; \
 fi
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/opcodes/po'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/opcodes'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/binutils'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/opcodes/po'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/opcodes'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/binutils'
 make  install-recursive
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/binutils'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/binutils'
 Making install in po
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/binutils/po'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/binutils/po'
 if test -r ../../../binutils/../mkinstalldirs; then \
   ../../../binutils/../mkinstalldirs /usr/local/share; \
 else \
   ../../../binutils/mkinstalldirs /usr/local/share; \
 fi
-mkdir -p -- /usr/local/share/locale/bg/LC_MESSAGES
 installing bg.gmo as /usr/local/share/locale/bg/LC_MESSAGES/binutils.mo
 installing ca.gmo as /usr/local/share/locale/ca/LC_MESSAGES/binutils.mo
 installing da.gmo as /usr/local/share/locale/da/LC_MESSAGES/binutils.mo
@@ -132,7 +125,6 @@ installing pt.gmo as /usr/local/share/locale/pt/LC_MESSAGES/binutils.mo
 installing ro.gmo as /usr/local/share/locale/ro/LC_MESSAGES/binutils.mo
 installing ru.gmo as /usr/local/share/locale/ru/LC_MESSAGES/binutils.mo
 installing rw.gmo as /usr/local/share/locale/rw/LC_MESSAGES/binutils.mo
-mkdir -p -- /usr/local/share/locale/sk/LC_MESSAGES
 installing sk.gmo as /usr/local/share/locale/sk/LC_MESSAGES/binutils.mo
 installing sr.gmo as /usr/local/share/locale/sr/LC_MESSAGES/binutils.mo
 installing sv.gmo as /usr/local/share/locale/sv/LC_MESSAGES/binutils.mo
@@ -152,44 +144,44 @@ if test "binutils" = "gettext"; then \
 else \
   : ; \
 fi
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/binutils/po'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/binutils'
-make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/binutils'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/binutils/po'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/binutils'
+make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/binutils'
  /usr/bin/mkdir -p '/usr/local/bin'
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c size '/usr/local/bin/./aarch64-arm-linux-gnu-size'
-libtool: install: /usr/bin/install -c size /usr/local/bin/./aarch64-arm-linux-gnu-size
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c objdump '/usr/local/bin/./aarch64-arm-linux-gnu-objdump'
-libtool: install: /usr/bin/install -c objdump /usr/local/bin/./aarch64-arm-linux-gnu-objdump
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c ar '/usr/local/bin/./aarch64-arm-linux-gnu-ar'
-libtool: install: /usr/bin/install -c ar /usr/local/bin/./aarch64-arm-linux-gnu-ar
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c strings '/usr/local/bin/./aarch64-arm-linux-gnu-strings'
-libtool: install: /usr/bin/install -c strings /usr/local/bin/./aarch64-arm-linux-gnu-strings
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c ranlib '/usr/local/bin/./aarch64-arm-linux-gnu-ranlib'
-libtool: install: /usr/bin/install -c ranlib /usr/local/bin/./aarch64-arm-linux-gnu-ranlib
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c objcopy '/usr/local/bin/./aarch64-arm-linux-gnu-objcopy'
-libtool: install: /usr/bin/install -c objcopy /usr/local/bin/./aarch64-arm-linux-gnu-objcopy
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c addr2line '/usr/local/bin/./aarch64-arm-linux-gnu-addr2line'
-libtool: install: /usr/bin/install -c addr2line /usr/local/bin/./aarch64-arm-linux-gnu-addr2line
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c readelf '/usr/local/bin/./aarch64-arm-linux-gnu-readelf'
-libtool: install: /usr/bin/install -c readelf /usr/local/bin/./aarch64-arm-linux-gnu-readelf
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c elfedit '/usr/local/bin/./aarch64-arm-linux-gnu-elfedit'
-libtool: install: /usr/bin/install -c elfedit /usr/local/bin/./aarch64-arm-linux-gnu-elfedit
-  /bin/sh ./libtool  --mode=install /usr/bin/install -c nm-new /usr/local/bin/aarch64-arm-linux-gnu-nm
-libtool: install: /usr/bin/install -c nm-new /usr/local/bin/aarch64-arm-linux-gnu-nm
-  /bin/sh ./libtool  --mode=install /usr/bin/install -c strip-new /usr/local/bin/aarch64-arm-linux-gnu-strip
-libtool: install: /usr/bin/install -c strip-new /usr/local/bin/aarch64-arm-linux-gnu-strip
-  /bin/sh ./libtool  --mode=install /usr/bin/install -c cxxfilt /usr/local/bin/aarch64-arm-linux-gnu-c++filt
-libtool: install: /usr/bin/install -c cxxfilt /usr/local/bin/aarch64-arm-linux-gnu-c++filt
-/bin/sh ../../binutils/../mkinstalldirs /usr/local/aarch64-arm-linux-gnu/bin
-mkdir -p -- /usr/local/aarch64-arm-linux-gnu/bin
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c size '/usr/local/bin/./riscv64-unknown-linux-gnu-size'
+libtool: install: /usr/bin/install -c size /usr/local/bin/./riscv64-unknown-linux-gnu-size
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c objdump '/usr/local/bin/./riscv64-unknown-linux-gnu-objdump'
+libtool: install: /usr/bin/install -c objdump /usr/local/bin/./riscv64-unknown-linux-gnu-objdump
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c ar '/usr/local/bin/./riscv64-unknown-linux-gnu-ar'
+libtool: install: /usr/bin/install -c ar /usr/local/bin/./riscv64-unknown-linux-gnu-ar
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c strings '/usr/local/bin/./riscv64-unknown-linux-gnu-strings'
+libtool: install: /usr/bin/install -c strings /usr/local/bin/./riscv64-unknown-linux-gnu-strings
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c ranlib '/usr/local/bin/./riscv64-unknown-linux-gnu-ranlib'
+libtool: install: /usr/bin/install -c ranlib /usr/local/bin/./riscv64-unknown-linux-gnu-ranlib
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c objcopy '/usr/local/bin/./riscv64-unknown-linux-gnu-objcopy'
+libtool: install: /usr/bin/install -c objcopy /usr/local/bin/./riscv64-unknown-linux-gnu-objcopy
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c addr2line '/usr/local/bin/./riscv64-unknown-linux-gnu-addr2line'
+libtool: install: /usr/bin/install -c addr2line /usr/local/bin/./riscv64-unknown-linux-gnu-addr2line
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c readelf '/usr/local/bin/./riscv64-unknown-linux-gnu-readelf'
+libtool: install: /usr/bin/install -c readelf /usr/local/bin/./riscv64-unknown-linux-gnu-readelf
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c elfedit '/usr/local/bin/./riscv64-unknown-linux-gnu-elfedit'
+libtool: install: /usr/bin/install -c elfedit /usr/local/bin/./riscv64-unknown-linux-gnu-elfedit
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c nm-new /usr/local/bin/riscv64-unknown-linux-gnu-nm
+libtool: install: /usr/bin/install -c nm-new /usr/local/bin/riscv64-unknown-linux-gnu-nm
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c strip-new /usr/local/bin/riscv64-unknown-linux-gnu-strip
+libtool: install: /usr/bin/install -c strip-new /usr/local/bin/riscv64-unknown-linux-gnu-strip
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c cxxfilt /usr/local/bin/riscv64-unknown-linux-gnu-c++filt
+libtool: install: /usr/bin/install -c cxxfilt /usr/local/bin/riscv64-unknown-linux-gnu-c++filt
+/bin/sh ../../binutils/../mkinstalldirs /usr/local/riscv64-unknown-linux-gnu/bin
+mkdir -p -- /usr/local/riscv64-unknown-linux-gnu/bin
 for i in nm-new strip-new ar ranlib dlltool objdump objcopy readelf; do \
   if [ -f $i ]; then \
     j=`echo $i | sed -e 's/-new//'`; \
-    k=`echo $j | sed 's&^&aarch64-arm-linux-gnu-&'`; \
-    if [ "/usr/local/bin/$k" != "/usr/local/aarch64-arm-linux-gnu/bin/$j" ]; then \
-      rm -f /usr/local/aarch64-arm-linux-gnu/bin/$j; \
-      ln /usr/local/bin/$k /usr/local/aarch64-arm-linux-gnu/bin/$j >/dev/null 2>/dev/null \
-	||  /bin/sh ./libtool --mode=install /usr/bin/install -c $i /usr/local/aarch64-arm-linux-gnu/bin/$j; \
+    k=`echo $j | sed 's&^&riscv64-unknown-linux-gnu-&'`; \
+    if [ "/usr/local/bin/$k" != "/usr/local/riscv64-unknown-linux-gnu/bin/$j" ]; then \
+      rm -f /usr/local/riscv64-unknown-linux-gnu/bin/$j; \
+      ln /usr/local/bin/$k /usr/local/riscv64-unknown-linux-gnu/bin/$j >/dev/null 2>/dev/null \
+	||  /bin/sh ./libtool --mode=install /usr/bin/install -c $i /usr/local/riscv64-unknown-linux-gnu/bin/$j; \
     fi; \
   else true; \
   fi; \
@@ -198,34 +190,34 @@ done
  /usr/bin/install -c -m 644 ./doc/binutils.info '/usr/local/share/info'
  install-info --info-dir='/usr/local/share/info' '/usr/local/share/info/binutils.info'
  /usr/bin/mkdir -p '/usr/local/share/man/man1'
- /usr/bin/install -c -m 644 'doc/addr2line.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-addr2line.1'
- /usr/bin/install -c -m 644 'doc/ar.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-ar.1'
- /usr/bin/install -c -m 644 'doc/dlltool.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-dlltool.1'
- /usr/bin/install -c -m 644 'doc/nm.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-nm.1'
- /usr/bin/install -c -m 644 'doc/objcopy.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-objcopy.1'
- /usr/bin/install -c -m 644 'doc/objdump.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-objdump.1'
- /usr/bin/install -c -m 644 'doc/ranlib.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-ranlib.1'
- /usr/bin/install -c -m 644 'doc/readelf.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-readelf.1'
- /usr/bin/install -c -m 644 'doc/size.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-size.1'
- /usr/bin/install -c -m 644 'doc/strings.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-strings.1'
- /usr/bin/install -c -m 644 'doc/strip.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-strip.1'
- /usr/bin/install -c -m 644 'doc/elfedit.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-elfedit.1'
- /usr/bin/install -c -m 644 'doc/windres.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-windres.1'
- /usr/bin/install -c -m 644 'doc/windmc.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-windmc.1'
- /usr/bin/install -c -m 644 'doc/c++filt.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-c++filt.1'
-make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/binutils'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/binutils'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/binutils'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/binutils'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/etc'
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/etc'
+ /usr/bin/install -c -m 644 'doc/addr2line.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-addr2line.1'
+ /usr/bin/install -c -m 644 'doc/ar.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-ar.1'
+ /usr/bin/install -c -m 644 'doc/dlltool.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-dlltool.1'
+ /usr/bin/install -c -m 644 'doc/nm.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-nm.1'
+ /usr/bin/install -c -m 644 'doc/objcopy.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-objcopy.1'
+ /usr/bin/install -c -m 644 'doc/objdump.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-objdump.1'
+ /usr/bin/install -c -m 644 'doc/ranlib.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-ranlib.1'
+ /usr/bin/install -c -m 644 'doc/readelf.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-readelf.1'
+ /usr/bin/install -c -m 644 'doc/size.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-size.1'
+ /usr/bin/install -c -m 644 'doc/strings.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-strings.1'
+ /usr/bin/install -c -m 644 'doc/strip.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-strip.1'
+ /usr/bin/install -c -m 644 'doc/elfedit.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-elfedit.1'
+ /usr/bin/install -c -m 644 'doc/windres.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-windres.1'
+ /usr/bin/install -c -m 644 'doc/windmc.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-windmc.1'
+ /usr/bin/install -c -m 644 'doc/c++filt.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-c++filt.1'
+make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/binutils'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/binutils'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/binutils'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/binutils'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/etc'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/etc'
 make[3]: Nothing to be done for 'install-exec-am'.
 make[3]: Nothing to be done for 'install-data-am'.
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/etc'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/etc'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gas'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/etc'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/etc'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gas'
 Making install in po
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gas/po'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gas/po'
 if test -r ../../../gas/../mkinstalldirs; then \
   ../../../gas/../mkinstalldirs /usr/local/share; \
 else \
@@ -253,19 +245,19 @@ if test "gas" = "gettext"; then \
 else \
   : ; \
 fi
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gas/po'
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gas'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gas/po'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gas'
   GEN      doc/asconfig.texi
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gas'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gas'
 /bin/sh ../../gas/../mkinstalldirs /usr/local/bin
-  /bin/sh ./libtool  --mode=install /usr/bin/install -c as-new /usr/local/bin/aarch64-arm-linux-gnu-as
-libtool: install: /usr/bin/install -c as-new /usr/local/bin/aarch64-arm-linux-gnu-as
-/bin/sh ../../gas/../mkinstalldirs /usr/local/aarch64-arm-linux-gnu/bin
-n=`echo as | sed 's&^&aarch64-arm-linux-gnu-&'`; \
-if [ "/usr/local/bin/$n" != "/usr/local/aarch64-arm-linux-gnu/bin/as" ]; then \
-  rm -f /usr/local/aarch64-arm-linux-gnu/bin/as; \
-  ln /usr/local/bin/$n /usr/local/aarch64-arm-linux-gnu/bin/as >/dev/null 2>/dev/null \
-    ||  /bin/sh ./libtool --mode=install /usr/bin/install -c as-new /usr/local/aarch64-arm-linux-gnu/bin/as; \
+  /bin/sh ./libtool  --mode=install /usr/bin/install -c as-new /usr/local/bin/riscv64-unknown-linux-gnu-as
+libtool: install: /usr/bin/install -c as-new /usr/local/bin/riscv64-unknown-linux-gnu-as
+/bin/sh ../../gas/../mkinstalldirs /usr/local/riscv64-unknown-linux-gnu/bin
+n=`echo as | sed 's&^&riscv64-unknown-linux-gnu-&'`; \
+if [ "/usr/local/bin/$n" != "/usr/local/riscv64-unknown-linux-gnu/bin/as" ]; then \
+  rm -f /usr/local/riscv64-unknown-linux-gnu/bin/as; \
+  ln /usr/local/bin/$n /usr/local/riscv64-unknown-linux-gnu/bin/as >/dev/null 2>/dev/null \
+    ||  /bin/sh ./libtool --mode=install /usr/bin/install -c as-new /usr/local/riscv64-unknown-linux-gnu/bin/as; \
 else \
   true ; \
 fi
@@ -274,15 +266,15 @@ fi
  /usr/bin/install -c -m 644 ./doc/as.info '/usr/local/share/info'
  install-info --info-dir='/usr/local/share/info' '/usr/local/share/info/as.info'
  /usr/bin/mkdir -p '/usr/local/share/man/man1'
- /usr/bin/install -c -m 644 'doc/as.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-as.1'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gas'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gas'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gas'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprof'
+ /usr/bin/install -c -m 644 'doc/as.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-as.1'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gas'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gas'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gas'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprof'
 make  install-recursive
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprof'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprof'
 Making install in po
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprof/po'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprof/po'
 if test -r ../../../gprof/../mkinstalldirs; then \
   ../../../gprof/../mkinstalldirs /usr/local/share; \
 else \
@@ -296,13 +288,11 @@ installing es.gmo as /usr/local/share/locale/es/LC_MESSAGES/gprof.mo
 installing fi.gmo as /usr/local/share/locale/fi/LC_MESSAGES/gprof.mo
 installing fr.gmo as /usr/local/share/locale/fr/LC_MESSAGES/gprof.mo
 installing ga.gmo as /usr/local/share/locale/ga/LC_MESSAGES/gprof.mo
-mkdir -p -- /usr/local/share/locale/hu/LC_MESSAGES
 installing hu.gmo as /usr/local/share/locale/hu/LC_MESSAGES/gprof.mo
 installing id.gmo as /usr/local/share/locale/id/LC_MESSAGES/gprof.mo
 installing it.gmo as /usr/local/share/locale/it/LC_MESSAGES/gprof.mo
 installing ja.gmo as /usr/local/share/locale/ja/LC_MESSAGES/gprof.mo
 installing ka.gmo as /usr/local/share/locale/ka/LC_MESSAGES/gprof.mo
-mkdir -p -- /usr/local/share/locale/ms/LC_MESSAGES
 installing ms.gmo as /usr/local/share/locale/ms/LC_MESSAGES/gprof.mo
 installing nl.gmo as /usr/local/share/locale/nl/LC_MESSAGES/gprof.mo
 installing pt_BR.gmo as /usr/local/share/locale/pt_BR/LC_MESSAGES/gprof.mo
@@ -325,25 +315,25 @@ if test "gprof" = "gettext"; then \
 else \
   : ; \
 fi
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprof/po'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprof'
-make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprof'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprof/po'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprof'
+make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprof'
  /usr/bin/mkdir -p '/usr/local/bin'
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c gprof '/usr/local/bin/./aarch64-arm-linux-gnu-gprof'
-libtool: install: /usr/bin/install -c gprof /usr/local/bin/./aarch64-arm-linux-gnu-gprof
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c gprof '/usr/local/bin/./riscv64-unknown-linux-gnu-gprof'
+libtool: install: /usr/bin/install -c gprof /usr/local/bin/./riscv64-unknown-linux-gnu-gprof
  /usr/bin/mkdir -p '/usr/local/share/info'
  /usr/bin/install -c -m 644 ./gprof.info '/usr/local/share/info'
  install-info --info-dir='/usr/local/share/info' '/usr/local/share/info/gprof.info'
  /usr/bin/mkdir -p '/usr/local/share/man/man1'
- /usr/bin/install -c -m 644 'gprof.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-gprof.1'
-make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprof'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprof'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprof'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprof'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng'
+ /usr/bin/install -c -m 644 'gprof.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-gprof.1'
+make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprof'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprof'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprof'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprof'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng'
 Making install in libcollector
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/libcollector'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/libcollector'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/libcollector'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/libcollector'
  /usr/bin/mkdir -p '/usr/local/lib/gprofng'
  /bin/sh ./libtool   --mode=install /usr/bin/install -c   libgp-collector.la libgp-collectorAPI.la libgp-heap.la libgp-sync.la libgp-iotrace.la '/usr/local/lib/gprofng'
 libtool: install: /usr/bin/install -c .libs/libgp-collector.so /usr/local/lib/gprofng/libgp-collector.so
@@ -395,13 +385,13 @@ for f in libgp-collector libgp-heap libgp-sync libgp-iotrace ; do \
 done
  /usr/bin/mkdir -p '/usr/local/include'
  /usr/bin/install -c -m 644 ../../../gprofng/libcollector/../../include/collectorAPI.h ../../../gprofng/libcollector/../../include/libcollector.h ../../../gprofng/libcollector/../../include/libfcollector.h '/usr/local/include'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/libcollector'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/libcollector'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/libcollector'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/libcollector'
 Making install in src
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/src'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/src'
 make  install-am
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/src'
-make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/src'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/src'
+make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/src'
  /usr/bin/mkdir -p '/usr/local/lib'
  /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgprofng.la '/usr/local/lib'
 libtool: install: /usr/bin/install -c .libs/libgprofng.lai /usr/local/lib/libgprofng.la
@@ -428,67 +418,67 @@ See any operating system documentation about shared libraries for
 more information, such as the ld(1) and ld.so(8) manual pages.
 ----------------------------------------------------------------------
  /usr/bin/mkdir -p '/usr/local/bin'
-  /bin/sh ../libtool   --mode=install /usr/bin/install -c gp-archive '/usr/local/bin/./aarch64-arm-linux-gnu-gp-archive'
-libtool: install: /usr/bin/install -c gp-archive /usr/local/bin/./aarch64-arm-linux-gnu-gp-archive
-  /bin/sh ../libtool   --mode=install /usr/bin/install -c gp-collect-app '/usr/local/bin/./aarch64-arm-linux-gnu-gp-collect-app'
-libtool: install: /usr/bin/install -c gp-collect-app /usr/local/bin/./aarch64-arm-linux-gnu-gp-collect-app
-  /bin/sh ../libtool   --mode=install /usr/bin/install -c gprofng '/usr/local/bin/./aarch64-arm-linux-gnu-gprofng'
-libtool: install: /usr/bin/install -c gprofng /usr/local/bin/./aarch64-arm-linux-gnu-gprofng
-  /bin/sh ../libtool   --mode=install /usr/bin/install -c gp-display-text '/usr/local/bin/./aarch64-arm-linux-gnu-gp-display-text'
-libtool: install: /usr/bin/install -c gp-display-text /usr/local/bin/./aarch64-arm-linux-gnu-gp-display-text
-  /bin/sh ../libtool   --mode=install /usr/bin/install -c gp-display-src '/usr/local/bin/./aarch64-arm-linux-gnu-gp-display-src'
-libtool: install: /usr/bin/install -c gp-display-src /usr/local/bin/./aarch64-arm-linux-gnu-gp-display-src
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gp-archive '/usr/local/bin/./riscv64-unknown-linux-gnu-gp-archive'
+libtool: install: /usr/bin/install -c gp-archive /usr/local/bin/./riscv64-unknown-linux-gnu-gp-archive
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gp-collect-app '/usr/local/bin/./riscv64-unknown-linux-gnu-gp-collect-app'
+libtool: install: /usr/bin/install -c gp-collect-app /usr/local/bin/./riscv64-unknown-linux-gnu-gp-collect-app
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gprofng '/usr/local/bin/./riscv64-unknown-linux-gnu-gprofng'
+libtool: install: /usr/bin/install -c gprofng /usr/local/bin/./riscv64-unknown-linux-gnu-gprofng
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gp-display-text '/usr/local/bin/./riscv64-unknown-linux-gnu-gp-display-text'
+libtool: install: /usr/bin/install -c gp-display-text /usr/local/bin/./riscv64-unknown-linux-gnu-gp-display-text
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gp-display-src '/usr/local/bin/./riscv64-unknown-linux-gnu-gp-display-src'
+libtool: install: /usr/bin/install -c gp-display-src /usr/local/bin/./riscv64-unknown-linux-gnu-gp-display-src
  /usr/bin/mkdir -p '/usr/local/etc'
  /usr/bin/install -c -m 644 ../../../gprofng/src/gprofng.rc '/usr/local/etc'
-make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/src'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/src'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/src'
+make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/src'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/src'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/src'
 Making install in gp-display-html
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/gp-display-html'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/gp-display-html'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/gp-display-html'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/gp-display-html'
  /usr/bin/mkdir -p '/usr/local/bin'
- /usr/bin/install -c gp-display-html '/usr/local/bin/./aarch64-arm-linux-gnu-gp-display-html'
+ /usr/bin/install -c gp-display-html '/usr/local/bin/./riscv64-unknown-linux-gnu-gp-display-html'
 make[4]: Nothing to be done for 'install-data-am'.
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/gp-display-html'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/gp-display-html'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/gp-display-html'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/gp-display-html'
 Making install in doc
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/doc'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/doc'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/doc'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/doc'
 make[4]: Nothing to be done for 'install-exec-am'.
  /usr/bin/mkdir -p '/usr/local/share/info'
  /usr/bin/install -c -m 644 ./gprofng.info '/usr/local/share/info'
  install-info --info-dir='/usr/local/share/info' '/usr/local/share/info/gprofng.info'
  /usr/bin/mkdir -p '/usr/local/share/man/man1'
- /usr/bin/install -c -m 644 'gprofng.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-gprofng.1'
- /usr/bin/install -c -m 644 'gp-archive.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-gp-archive.1'
- /usr/bin/install -c -m 644 'gp-collect-app.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-gp-collect-app.1'
- /usr/bin/install -c -m 644 'gp-display-html.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-gp-display-html.1'
- /usr/bin/install -c -m 644 'gp-display-src.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-gp-display-src.1'
- /usr/bin/install -c -m 644 'gp-display-text.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-gp-display-text.1'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/doc'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng/doc'
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng'
+ /usr/bin/install -c -m 644 'gprofng.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-gprofng.1'
+ /usr/bin/install -c -m 644 'gp-archive.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-gp-archive.1'
+ /usr/bin/install -c -m 644 'gp-collect-app.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-gp-collect-app.1'
+ /usr/bin/install -c -m 644 'gp-display-html.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-gp-display-html.1'
+ /usr/bin/install -c -m 644 'gp-display-src.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-gp-display-src.1'
+ /usr/bin/install -c -m 644 'gp-display-text.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-gp-display-text.1'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/doc'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng/doc'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng'
 make[4]: Nothing to be done for 'install-exec-am'.
 make[4]: Nothing to be done for 'install-data-am'.
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gprofng'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/intl'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gprofng'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/intl'
 make[2]: Nothing to be done for 'install'.
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/intl'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/libctf'
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/libctf'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/intl'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/libctf'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/libctf'
  /usr/bin/mkdir -p '/usr/local/share/info'
  /usr/bin/install -c -m 644 ./doc/ctf-spec.info '/usr/local/share/info'
  install-info --info-dir='/usr/local/share/info' '/usr/local/share/info/ctf-spec.info'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/libctf'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/libctf'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/ld'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/libctf'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/libctf'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/ld'
 make  install-recursive
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/ld'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/ld'
 Making install in po
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/ld/po'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/ld/po'
 if test -r ../../../ld/../mkinstalldirs; then \
   ../../../ld/../mkinstalldirs /usr/local/share; \
 else \
@@ -524,38 +514,38 @@ if test "ld" = "gettext"; then \
 else \
   : ; \
 fi
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/ld/po'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/ld'
-make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/ld'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/ld/po'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/ld'
+make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/ld'
  /usr/bin/mkdir -p '/usr/local/bin'
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c ld-new '/usr/local/bin/./aarch64-arm-linux-gnu-ld.bfd'
-libtool: install: /usr/bin/install -c ld-new /usr/local/bin/./aarch64-arm-linux-gnu-ld.bfd
-/bin/sh ../../ld/../mkinstalldirs /usr/local/aarch64-arm-linux-gnu/bin
-n=`echo ld.bfd | sed 's/^ld-new$/ld.bfd/;s&^&aarch64-arm-linux-gnu-&'`; \
-if test "/usr/local/bin" != "/usr/local/aarch64-arm-linux-gnu/bin"; then \
-  rm -f /usr/local/aarch64-arm-linux-gnu/bin/ld.bfd; \
-  ln /usr/local/bin/$n /usr/local/aarch64-arm-linux-gnu/bin/ld.bfd >/dev/null 2>/dev/null \
-  ||  /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /usr/local/aarch64-arm-linux-gnu/bin/ld.bfd; \
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c ld-new '/usr/local/bin/./riscv64-unknown-linux-gnu-ld.bfd'
+libtool: install: /usr/bin/install -c ld-new /usr/local/bin/./riscv64-unknown-linux-gnu-ld.bfd
+/bin/sh ../../ld/../mkinstalldirs /usr/local/riscv64-unknown-linux-gnu/bin
+n=`echo ld.bfd | sed 's/^ld-new$/ld.bfd/;s&^&riscv64-unknown-linux-gnu-&'`; \
+if test "/usr/local/bin" != "/usr/local/riscv64-unknown-linux-gnu/bin"; then \
+  rm -f /usr/local/riscv64-unknown-linux-gnu/bin/ld.bfd; \
+  ln /usr/local/bin/$n /usr/local/riscv64-unknown-linux-gnu/bin/ld.bfd >/dev/null 2>/dev/null \
+  ||  /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /usr/local/riscv64-unknown-linux-gnu/bin/ld.bfd; \
 fi; \
 if test "xyes" = "xyes"; then \
-  ld=`echo ld | sed 's/^ld-new$/ld.bfd/;s&^&aarch64-arm-linux-gnu-&'`; \
+  ld=`echo ld | sed 's/^ld-new$/ld.bfd/;s&^&riscv64-unknown-linux-gnu-&'`; \
   rm -f /usr/local/bin/$ld; \
   ln /usr/local/bin/$n /usr/local/bin/$ld >/dev/null 2>/dev/null \
   ||  /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /usr/local/bin/$ld; \
-  if test "/usr/local/bin" != "/usr/local/aarch64-arm-linux-gnu/bin"; then \
-    rm -f /usr/local/aarch64-arm-linux-gnu/bin/ld; \
-    ln /usr/local/bin/$n /usr/local/aarch64-arm-linux-gnu/bin/ld >/dev/null 2>/dev/null \
-    ||  /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /usr/local/aarch64-arm-linux-gnu/bin/ld; \
+  if test "/usr/local/bin" != "/usr/local/riscv64-unknown-linux-gnu/bin"; then \
+    rm -f /usr/local/riscv64-unknown-linux-gnu/bin/ld; \
+    ln /usr/local/bin/$n /usr/local/riscv64-unknown-linux-gnu/bin/ld >/dev/null 2>/dev/null \
+    ||  /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /usr/local/riscv64-unknown-linux-gnu/bin/ld; \
   fi; \
 fi
  /usr/bin/mkdir -p '/usr/local/lib/bfd-plugins'
  /bin/sh ./libtool   --mode=install /usr/bin/install -c   libdep.la '/usr/local/lib/bfd-plugins'
 libtool: install: /usr/bin/install -c .libs/libdep.so /usr/local/lib/bfd-plugins/libdep.so
 libtool: install: /usr/bin/install -c .libs/libdep.lai /usr/local/lib/bfd-plugins/libdep.la
-/bin/sh ../../ld/../mkinstalldirs /usr/local/aarch64-arm-linux-gnu/lib/ldscripts
-mkdir -p -- /usr/local/aarch64-arm-linux-gnu/lib/ldscripts
+/bin/sh ../../ld/../mkinstalldirs /usr/local/riscv64-unknown-linux-gnu/lib/ldscripts
+mkdir -p -- /usr/local/riscv64-unknown-linux-gnu/lib/ldscripts
 for f in ldscripts/* ; do \
-  /usr/bin/install -c -m 644 $f /usr/local/aarch64-arm-linux-gnu/lib/$f ; \
+  /usr/bin/install -c -m 644 $f /usr/local/riscv64-unknown-linux-gnu/lib/$f ; \
 done
 rm -f /usr/local/lib/bfd-plugins/libdep.la
 rm -f /usr/local/lib/bfd-plugins/libdep.dll.a
@@ -564,25 +554,25 @@ rm -f /usr/local/lib/bfd-plugins/libdep.dll.a
  install-info --info-dir='/usr/local/share/info' '/usr/local/share/info/ld.info'
  install-info --info-dir='/usr/local/share/info' '/usr/local/share/info/ldint.info'
  /usr/bin/mkdir -p '/usr/local/share/man/man1'
- /usr/bin/install -c -m 644 'ld.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-ld.1'
-make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/ld'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/ld'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/ld'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/ld'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/libbacktrace'
+ /usr/bin/install -c -m 644 'ld.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-ld.1'
+make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/ld'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/ld'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/ld'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/ld'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/libbacktrace'
 true  DO=all multi-do # make
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/libbacktrace'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/libbacktrace'
 true  DO=install multi-do # make
 make[3]: Nothing to be done for 'install-data-am'.
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/libbacktrace'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/libbacktrace'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/libdecnumber'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/libbacktrace'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/libbacktrace'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/libdecnumber'
 make[2]: Nothing to be done for 'install'.
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/libdecnumber'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/libiberty'
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/libiberty/testsuite'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/libdecnumber'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/libiberty'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/libiberty/testsuite'
 make[3]: Nothing to be done for 'all'.
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/libiberty/testsuite'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/libiberty/testsuite'
 if test -n ""; then \
 	/bin/sh ../../libiberty/../mkinstalldirs /usr/local/lib/`gcc -g -O2     -print-multi-os-directory`; \
 	/usr/bin/install -c -m 644 ./libiberty.a /usr/local/lib/`gcc -g -O2     -print-multi-os-directory`/./libiberty.an; \
@@ -597,91 +587,91 @@ if test -n ""; then \
 	  /usr/bin/install -c -m 644 $h ${thd}; \
 	done; \
 fi
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/libiberty/testsuite'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/libiberty/testsuite'
 make[3]: Nothing to be done for 'install'.
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/libiberty/testsuite'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/libiberty'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/readline'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/libiberty/testsuite'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/libiberty'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/readline'
 Making install in readline
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/readline/readline'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/readline/readline'
 make[3]: Nothing to be done for 'install'.
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/readline/readline'
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/readline'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/readline'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/readline/readline'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/readline'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/readline'
 make[4]: Nothing to be done for 'install-exec-am'.
 make[4]: Nothing to be done for 'install-data-am'.
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/readline'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/readline'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/readline'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/sim'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/readline'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/readline'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/readline'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/sim'
 make  install-recursive
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/sim'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/sim'
-make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/sim'
-make[6]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/sim'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/sim'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/sim'
+make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/sim'
+make[6]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/sim'
 for dir in "" "" "" "" "" "" "" "/usr/local/include/sim"; do \
   test -z "$dir" || /usr/bin/mkdir -p "$dir"; \
 done
-make[6]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/sim'
-run=`echo run | sed 's&^&aarch64-arm-linux-gnu-&'`; \
-for d in aarch64; do \
+make[6]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/sim'
+run=`echo run | sed 's&^&riscv64-unknown-linux-gnu-&'`; \
+for d in riscv; do \
 	n="$run"; \
-	[ "aarch64" = "$d" ] || n="$n-$d"; \
+	[ "riscv" = "$d" ] || n="$n-$d"; \
 	/bin/sh ./libtool --mode=install \
 		/usr/bin/install -c $d/run /usr/local/bin/$n || exit 1; \
 done
-libtool: install: /usr/bin/install -c aarch64/run /usr/local/bin/aarch64-arm-linux-gnu-run
-lib=`echo sim | sed 's&^&aarch64-arm-linux-gnu-&'`; \
-for d in aarch64; do \
+libtool: install: /usr/bin/install -c riscv/run /usr/local/bin/riscv64-unknown-linux-gnu-run
+lib=`echo sim | sed 's&^&riscv64-unknown-linux-gnu-&'`; \
+for d in riscv; do \
 	n="$lib"; \
-	[ "aarch64" = "$d" ] || n="$n-$d"; \
+	[ "riscv" = "$d" ] || n="$n-$d"; \
 	n="lib$n.a"; \
 	/usr/bin/install -c -m 644 $d/libsim.a /usr/local/lib/$n || exit 1; \
 done
  /usr/bin/mkdir -p '/usr/local/include/sim'
  /usr/bin/install -c -m 644 ../../sim/../include/sim/callback.h ../../sim/../include/sim/sim.h '/usr/local/include/sim'
-make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/sim'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/sim'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/sim'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/sim'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib'
+make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/sim'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/sim'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/sim'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/sim'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib'
 Making install in import
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib/import'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib/import'
 make  install-recursive
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib/import'
-make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib/import'
-make[6]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib/import'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib/import'
+make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib/import'
+make[6]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib/import'
 make[6]: Nothing to be done for 'install-exec-am'.
 make[6]: Nothing to be done for 'install-data-am'.
-make[6]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib/import'
-make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib/import'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib/import'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib/import'
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib'
+make[6]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib/import'
+make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib/import'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib/import'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib/import'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib'
 make[4]: Nothing to be done for 'install-exec-am'.
 make[4]: Nothing to be done for 'install-data-am'.
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gnulib'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdbsupport'
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdbsupport'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gnulib'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdbsupport'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdbsupport'
 make[3]: Nothing to be done for 'install-exec-am'.
 make[3]: Nothing to be done for 'install-data-am'.
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdbsupport'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdbsupport'
-make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb'
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/doc'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdbsupport'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdbsupport'
+make[2]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/doc'
 make[4]: Nothing to be done for 'all'.
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/doc'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/testsuite'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/testsuite'
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/data-directory'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/doc'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/testsuite'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/testsuite'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/data-directory'
 make[4]: Nothing to be done for 'all'.
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/data-directory'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb'
-make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/data-directory'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb'
+make[3]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb'
 /bin/sh ../../gdb/../mkinstalldirs /usr/local/share
 cats=""; for cat in $cats; do \
   lang=`basename $cat | sed 's/\.gmo$//'`; \
@@ -696,10 +686,8 @@ cats=""; for cat in $cats; do \
   /usr/bin/install -c -m 644 $cat $dir/gdb.mo; \
 done
 /bin/sh ../../gdb/../mkinstalldirs /usr/local/share/gdb/python/gdb
-mkdir -p -- /usr/local/share/gdb/python/gdb
 /bin/sh ../../gdb/../mkinstalldirs /usr/local/share/gdb/guile/gdb
-mkdir -p -- /usr/local/share/gdb/guile/gdb
-transformed_name=`t='s&^&aarch64-arm-linux-gnu-&'; \
+transformed_name=`t='s&^&riscv64-unknown-linux-gnu-&'; \
 		  echo gdb | sed -e "$t"` ; \
 	if test "x$transformed_name" = x; then \
 	  transformed_name=gdb ; \
@@ -712,11 +700,10 @@ transformed_name=`t='s&^&aarch64-arm-linux-gnu-&'; \
 		/usr/local/bin/$transformed_name ; \
 	/bin/sh ../../gdb/../mkinstalldirs /usr/local/include/gdb ; \
 	/usr/bin/install -c -m 644 jit-reader.h /usr/local/include/gdb/jit-reader.h
-libtool: install: /usr/bin/install -c gdb /usr/local/bin/aarch64-arm-linux-gnu-gdb
-mkdir -p -- /usr/local/include/gdb
+libtool: install: /usr/bin/install -c gdb /usr/local/bin/riscv64-unknown-linux-gnu-gdb
 if test "x" != x; \
 then \
-  transformed_name=`t='s&^&aarch64-arm-linux-gnu-&'; \
+  transformed_name=`t='s&^&riscv64-unknown-linux-gnu-&'; \
 		    echo gcore | sed -e "$t"` ; \
 	  if test "x$transformed_name" = x; then \
 	    transformed_name=gcore ; \
@@ -727,7 +714,7 @@ then \
 	  /usr/bin/install -c gcore \
 		  /usr/local/bin/$transformed_name; \
 fi
-transformed_name=`t='s&^&aarch64-arm-linux-gnu-&'; \
+transformed_name=`t='s&^&riscv64-unknown-linux-gnu-&'; \
 		  echo gdb-add-index | sed -e "$t"` ; \
 if test "x$transformed_name" = x; then \
   transformed_name=gdb-add-index ; \
@@ -736,8 +723,8 @@ else \
 fi ; \
 /usr/bin/install -c ../../gdb/contrib/gdb-add-index.sh \
 	/usr/local/bin/$transformed_name
-make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb'
-make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/doc'
+make[4]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb'
+make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/doc'
 /bin/sh ../../../gdb/doc/../../mkinstalldirs /usr/local/share/info
  /usr/bin/install -c -m 644 ./gdb.info /usr/local/share/info/gdb.info
  /usr/bin/install -c -m 644 ./stabs.info /usr/local/share/info/stabs.info
@@ -766,25 +753,23 @@ perl ../../../gdb/doc/../../etc/texi2pod.pl  -DHAVE_MAKEINFO_CLICK -Dman -Dgdb-a
 	mv -f gdb-add-index.1.T$$ gdb-add-index.1) || (rm -f gdb-add-index.1.T$$ && exit 1)
 rm -f gdb-add-index.pod
 test -z "/usr/local/share/man/man1" || /bin/sh ../../../gdb/doc/../../mkinstalldirs "/usr/local/share/man/man1"
- /usr/bin/install -c -m 644 'gdb.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-gdb.1'
- /usr/bin/install -c -m 644 'gdbserver.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-gdbserver.1'
- /usr/bin/install -c -m 644 'gdb-add-index.1' '/usr/local/share/man/man1/aarch64-arm-linux-gnu-gdb-add-index.1'
+ /usr/bin/install -c -m 644 'gdb.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-gdb.1'
+ /usr/bin/install -c -m 644 'gdbserver.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-gdbserver.1'
+ /usr/bin/install -c -m 644 'gdb-add-index.1' '/usr/local/share/man/man1/riscv64-unknown-linux-gnu-gdb-add-index.1'
 touch gdbinit.5
 perl ../../../gdb/doc/../../etc/texi2pod.pl  -DHAVE_MAKEINFO_CLICK -Dman -Dgdbinit < ../../../gdb/doc/gdb.texinfo > gdbinit.pod
 (pod2man --center="GNU Development Tools" --release="gdb-`sed q version.subst`" --section=5 gdbinit.pod | sed -e '/^.if n .na/d' > gdbinit.5.T$$ && \
 	mv -f gdbinit.5.T$$ gdbinit.5) || (rm -f gdbinit.5.T$$ && exit 1)
 rm -f gdbinit.pod
 test -z "/usr/local/share/man/man5" || /bin/sh ../../../gdb/doc/../../mkinstalldirs "/usr/local/share/man/man5"
-mkdir -p -- /usr/local/share/man/man5
- /usr/bin/install -c -m 644 'gdbinit.5' '/usr/local/share/man/man5/aarch64-arm-linux-gnu-gdbinit.5'
-make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/doc'
-make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/testsuite'
+ /usr/bin/install -c -m 644 'gdbinit.5' '/usr/local/share/man/man5/riscv64-unknown-linux-gnu-gdbinit.5'
+make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/doc'
+make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/testsuite'
 make[5]: Nothing to be done for 'install'.
-make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/testsuite'
-make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/data-directory'
-make[6]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/data-directory'
+make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/testsuite'
+make[5]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/data-directory'
+make[6]: Entering directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/data-directory'
 /bin/sh ../../../gdb/data-directory/../../mkinstalldirs /usr/local/share/gdb/syscalls
-mkdir -p -- /usr/local/share/gdb/syscalls
 files='gdb-syscalls.dtd freebsd.xml netbsd.xml aarch64-linux.xml amd64-linux.xml arm-linux.xml i386-linux.xml mips-n32-linux.xml mips-n64-linux.xml mips-o32-linux.xml ppc-linux.xml ppc64-linux.xml s390-linux.xml s390x-linux.xml sparc-linux.xml sparc64-linux.xml' ; \
 for file in $files; do \
   f=../../../gdb/data-directory/../syscalls/$file ; \
@@ -800,10 +785,6 @@ if test "x$files" != x ; then \
     /usr/bin/install -c -m 644 ./python/$file /usr/local/share/gdb/python/$dir ; \
   done ; \
 fi
-mkdir -p -- /usr/local/share/gdb/python/gdb/command
-mkdir -p -- /usr/local/share/gdb/python/gdb/dap
-mkdir -p -- /usr/local/share/gdb/python/gdb/function
-mkdir -p -- /usr/local/share/gdb/python/gdb/printer
 files='./gdb.scm gdb/boot.scm gdb/experimental.scm gdb/init.scm gdb/iterator.scm gdb/printing.scm gdb/support.scm gdb/types.scm ./gdb.go gdb/experimental.go gdb/iterator.go gdb/printing.go gdb/support.go gdb/types.go' ; \
 if test "x$files" != x ; then \
   for file in $files ; do \
@@ -813,7 +794,6 @@ if test "x$files" != x ; then \
   done ; \
 fi
 /bin/sh ../../../gdb/data-directory/../../mkinstalldirs /usr/local/share/gdb/system-gdbinit
-mkdir -p -- /usr/local/share/gdb/system-gdbinit
 files='elinos.py wrs-linux.py' ; \
 for file in $files; do \
   f=../../../gdb/data-directory/../system-gdbinit/$file ; \
@@ -821,10 +801,10 @@ for file in $files; do \
     /usr/bin/install -c -m 644 $f /usr/local/share/gdb/system-gdbinit ; \
   fi ; \
 done
-make[6]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/data-directory'
-make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb/data-directory'
-make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb'
-make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb'
-make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm/gdb'
+make[6]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/data-directory'
+make[5]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb/data-directory'
+make[4]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb'
+make[3]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb'
+make[2]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv/gdb'
 make[1]: Nothing to be done for 'install-target'.
-make[1]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildarm'
+make[1]: Leaving directory '/home/xyenchi/projects/binutils-gdb/buildrv'
